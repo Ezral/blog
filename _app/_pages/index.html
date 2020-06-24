@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-thumb_force_logo: true
+thumb_force_logo: false
 ---
 
 {%- include amsf/core -%}
@@ -12,40 +12,16 @@ thumb_force_logo: true
   <!-- Post title -->
   <header>
 
-    <h1 class="image-title">
-      Almace Scaffolding
-      <img src="{{ amsf_user_assets }}/svg/amsf.svg">
+    <h1>
+      Ezral; Collection of projects, articles and random thoughts.
     </h1>
 
-    <h2 class="sub-title">A super-fast Jekyll framework fighting against the website obesity.</h2>
-
-    <small>a.k.a. <b>AMSF</b>&#x30FB;ver. <b class="amsf-version">2.0.18</b>&#x30FB;view it on <a href="https://github.com/sparanoid/almace-scaffolding">GitHub</a></small>
+    <h2 class="sub-title">会社の医者の生活.</h2>
+    <br></<br>
+    <sup>Written using <b>AMSF</b>&#x30FB;ver. <b class="amsf-version">2.0.18</b>&#x30FB;view it on <a href="https://github.com/sparanoid/almace-scaffolding">GitHub</a></sup>
   </header>
 
-  <div class="page-content">
-    <h2>Getting Started</h2>
-    {% for post in site.tags.getting-started %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
 
-    <h2>Customization</h2>
-    {% for post in site.tags.customization %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
 
-    <h2>Theme Curtana</h2>
-    {% for post in site.tags.curtana %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
 
-    <h2>Deployment</h2>
-    {% for post in site.tags.deployment %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-
-    <h2>Miscellaneous</h2>
-    {% for post in site.tags.miscellaneous %}
-      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-    {% endfor %}
-  </div>
 </article>

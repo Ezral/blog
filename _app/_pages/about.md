@@ -2,20 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-desc: 示例頁面・サンプルページ・Example Page
+desc: おれ人のこと・TMI
 ---
 
-This is an example About page.
+This site is intended to document things I find interesting in life.
+Random thoughts and rants of an Indonesian MD who happens to be a コーヒーと音楽と日本語とラニング ¹ enthusiast.
+```
+¹Coffee and music and Japanese language and running.
+```
 
-Sparanoid is a design studio operated by Tunghsiao Liu. You can ping me on [Twitter](https://twitter.com/tunghsiao) or send correspondence to [t@sparanoid.com](mailto:t@sparanoid.com).
-
-## Colophon
-
-[AMSF](https://sparanoid.com/lab/amsf/) ([Source](https://github.com/sparanoid/sparanoid.com)) -
-[GitHub](https://github.com/) -
-[CloudFront](https://aws.amazon.com/cloudfront/) -
-[Textmate](https://macromates.com/)
-
-All posts are &copy; Sparanoid, Inc., all rights reserved.
-
-*[AMSF]: Almace Scaffolding
+<sup><sup><sup>All views expressed on this site are the author’s own opinion and do not represent the opinions of any affiliation that the author has.</sup></sup></sup>

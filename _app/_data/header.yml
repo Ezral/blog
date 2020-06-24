@@ -1,8 +1,11 @@
+- title: About
+  url:   /about/
+
 - title: __home__
   url:   /
 
-- title: News
-  url:   /news/
+- title: Medical
+  url:   /medical/
 
-- title: About
-  url:   /about/
+- title: Life
+  url:   /news/
