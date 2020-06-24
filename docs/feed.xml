@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-24T19:15:53+00:00</updated><id>https://ezral.net/ezral.github.io/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/ezral.github.io/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/ezral.github.io/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/ezral.github.io/</uri><email>aldoni@yahoo.com</email></author><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/ezral.github.io/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/ezral.github.io/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/ezral.github.io/">
+          
+            &lt;p&gt;Jakarta is one cities with the highest doctor density (per 1,000 population) which is comparable to Singapore or Seoul that have around 2.3 to 2.4 doctors per 1,000 population.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Available statistics show that over 45% of WHO Member States report to have less than 1 physician
+per 1,000 population.
+— &lt;a href=&quot;https://www.who.int/gho/health_workforce/physicians_density/en/&quot;&gt;World Health Organization&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, when compared to other provinces the discrepancy is pretty significant. Here’s a bar chart showing doctor density for each province in Indonesia with color gradient describing the land km square of the province.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/img1.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+          
+          
+        
+      
+        </content><summary>Jakarta is one cities with the highest doctor density (per 1,000 population) which is comparable to Singapore or Seoul that have around 2.3 to 2.4 doctors per 1,000 population.</summary></entry><entry><title>Dataquest Guided Project</title><id>https://ezral.net/ezral.github.io/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/ezral.github.io/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/ezral.github.io/">
+          
+            &lt;p&gt;From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on &lt;a href=&quot;https://dataquest.io&quot;&gt;Dataquest&lt;/a&gt;. Little did I know that I was going to like it this much.
+I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about &lt;a href=&quot;https://nbviewer.jupyter.org/urls/community.dataquest.io/uploads/short-url/6dRDpeZHZCHxZUwyDrGKo3DMrcv.ipynb&quot;&gt;Star Wars movie survey&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+          
+          
+        
+      
+        </content><summary>From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on Dataquest. Little did I know that I was going to like it this much.I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about Star Wars movie survey.</summary></entry><entry><title>Setting up ZSH</title><id>https://ezral.net/ezral.github.io/setting-up-zsh.html</id><link rel="alternate" type="text/html" href="https://ezral.net/ezral.github.io/setting-up-zsh.html" /><published>2020-06-23T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/ezral.github.io/">
+          
+            &lt;p&gt;MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick research on the web.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Installing oh-my-zsh&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I installed &lt;em&gt;&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot;&gt;oh-my-zsh&lt;/a&gt;&lt;/em&gt; via curl:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Oh-my-zsh will write its default &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; onto ours and that will makes things easier to customize.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Setting up oh-y-zsh theme&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are plenty of great looking themes but I like this clean looking &lt;a href=&quot;https://github.com/denysdovhan/spaceship-prompt&quot;&gt;spaceship&lt;/a&gt; theme. Clone the repo to install:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/denysdovhan/spaceship-prompt.git &quot;$ZSH_CUSTOM/themes/spaceship-prompt&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then symlink &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spaceship.zsh-theme&lt;/code&gt; to the oh-my-zsh custom themes directory:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ln -s &quot;$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme&quot; &quot;$ZSH_CUSTOM/themes/spaceship.zsh-theme&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ZSH_THEME=&quot;spaceship&quot;&lt;/code&gt; in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;. To set up the prompt, you can see the prompt options &lt;a href=&quot;https://denysdovhan.com/spaceship-prompt/docs/Options.htmlprompt&quot;&gt;here&lt;/a&gt;. The setup I’m using in my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; is like this:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SPACESHIP_USER_SHOW=always
+SPACESHIP_USER_COLOR=green
+SPACESHIP_USER_SUFFIX=' '
+SPACESHIP_HOST_PREFIX=&quot;@&quot;
+SPACESHIP_HOST_SUFFIX=&quot; &quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Installing font&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;FiraCode&lt;/a&gt;. Installation instructions can be found in FiraCode &lt;a href=&quot;https://github.com/tonsky/FiraCode/wiki/Installing&quot;&gt;wiki&lt;/a&gt;.
+Homebrew offers a quick way to do it:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once installed, select to use the font in your Terminal emulator preference.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Setting up oh-my-zsh plugins&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To install zsh-syntax-highlighting in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrcs&lt;/code&gt;, first clone the repo:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then, enable syntax highlighting in the current interactive shell by adding the line below:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source&lt;/code&gt; command must be &lt;strong&gt;at the end&lt;/strong&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;. Next, clone zsh-syntax-suggestion repo as well to install it:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To enable it we need to add the plugin in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plugins=(git zsh-autosuggestions)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Organising aliases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have your aliases already setup in bash or other shell, you can just copy them directly to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;, or place them in a file with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zsh&lt;/code&gt; extension in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.oh-my-zsh/custom/&lt;/code&gt; directory. The latter looks more organised in my opinion.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Add Conda setup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re like me and you’re using Conda for your jupyter notebook, you need to make sure that you put the following script into your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;gt;&amp;gt;&amp;gt; conda initialize &amp;gt;&amp;gt;&amp;gt;
+ !! Contents within this block are managed by 'conda init' !!
+__conda_setup=&quot;$('/Users/medicalagent3/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2&amp;gt; /dev/null)&quot;
+if [ $? -eq 0 ]; then
+    eval &quot;$__conda_setup&quot;
+else
+    if [ -f &quot;~/opt/anaconda3/etc/profile.d/conda.sh&quot; ]; then
+        . &quot;~/opt/anaconda3/etc/profile.d/conda.sh&quot;
+    else
+        export PATH=&quot;~/opt/anaconda3/bin:$PATH&quot;
+    fi
+fi
+unset __conda_setup
+ &amp;lt;&amp;lt;&amp;lt; conda initialize &amp;lt;&amp;lt;&amp;lt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To activate or deactivate your conda environment use the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda activate&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda deactivate&lt;/code&gt; on your command prompt.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Colors for terminal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For color, I follow &lt;a href=&quot;https://github.com/nathanbuchar/atom-one-dark-terminal/blob/master/COLORS&quot;&gt;atom one dark color&lt;/a&gt; theme which I applied manually on my terminal preference. Here are the hex colors for both &lt;em&gt;One Dark&lt;/em&gt; and &lt;em&gt;One Light&lt;/em&gt; theme:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;One Dark                       One Light
+
+Black:          1E2127        Black:          000000
+Bright Black:   5C6370        Bright Black:   383A42
+Red:            E06C75        Red:            E45649
+Bright Red:     E06C75        Bright Red:     E45649
+Green:          98C379        Green:          50A14F
+Bright Green:   98C379        Bright Green:   50A14F
+Yellow:         D19A66        Yellow:         986801
+Bright Yellow:  D19A66        Bright Yellow:  986801
+Blue:           61AFEF        Blue:           4078F2
+Light Blue:     61AFEF        Light Blue:     4078F2
+Magenta:        C678DD        Magenta:        A626A4
+Light Magenta:  C678DD        Light Magenta:  A626A4
+Cyan:           56B6C2        Cyan:           0184BC
+Light Cyan:     56B6C2        Light Cyan:     0184BC
+White:          ABB2BF        White:          A0A1A7
+Bright White:   FFFFFF        Bright White:   FFFFFF
+Text:           ABB2BF        Text:           383A42
+Bold Text:      ABB2BF        Bold Text:      A0A1A7
+Selection:      3A3F4B        Selection:      3A3F4B
+Cursor:         5C6370        Cursor:         383A42
+Background:     1E2127        Background:     F9F9F9
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The background color I used also follows the One Dark black color which hex is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1E2127&lt;/code&gt;. You can change it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FEFDF9&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FEF4EB&lt;/code&gt; if you want a peach colored background.&lt;/p&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot;&gt;Oh-my-zsh&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://denysdovhan.com/spaceship-prompt/&quot;&gt;Spaceship ZSH prompt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zsh-users/zsh-syntax-highlighting&quot;&gt;Zsh-syntax-highlighting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/zsh-users/zsh-autosuggestions&quot;&gt;Zsh-syntax-autosuggestion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;FiraCode font&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nathanbuchar/atom-one-dark-terminal&quot;&gt;Atom one dark for terminal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+          
+          
+        
+      
+        </content><summary>MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick research on the web.</summary></entry><entry><title>Air Medical Evacuation</title><id>https://ezral.net/ezral.github.io/air-medical-evacuation.html</id><link rel="alternate" type="text/html" href="https://ezral.net/ezral.github.io/air-medical-evacuation.html" /><published>2020-06-22T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/ezral.github.io/">
+          
+            &lt;p&gt;If you’re fortunate enough, you’d have enough fortune to spend to fly¹ you from one location to another for the sake of better medical treatment quality.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;¹All means of air-lifting patient (rotary &amp;amp; fixed wings) that includes commercial seated, commercial stretcher, air ambulance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Is it popular? Yes, among the wealthy and lucky few. The cost² can easily pays off your car instalments or your kid’s tuition.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;²Air ambulance cost for Jakarta to Singapore sector between the year 2016 – 2017 can vary from $13,000 to $26,000 depending on complexity of medical condition, aircraft type, and origin of aircraft.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Do we need more of these? &lt;strong&gt;Yes&lt;/strong&gt; and &lt;strong&gt;no&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yes&lt;/strong&gt; to bridge medical referral in rural or remote areas with extra-challenging geographical condition. In urban areas, to improve patient’s survival rate by accommodating quicker access to hospital-level intervention for those who need them. I’m talking without data here, but I’m pretty sure that most of the patients massive cardiac tamponade or hematothorax that resulted from chest trauma due to motor vehicle injury would have very little chance of surviving due to this reason.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; to unnecessary abroad medical referral that costs Indonesia’s economy hundred millions of rupiah. Although many would return feeling satisfied with the outcome of their decision to have medical treatment abroad, not little ended up having the same end result that they would’ve gotten even without the medical evacuation.&lt;/p&gt;
+
+&lt;p&gt;A country’s potential financial loss shouldn’t be the main issue here, but it should’ve triggered an action that would address some of the main causes why patients would prefer to spend more just to seek something that they could have back in their home town or country.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+          
+          
+        
+      
+        </content><summary>If you’re fortunate enough, you’d have enough fortune to spend to fly¹ you from one location to another for the sake of better medical treatment quality.</summary></entry></feed>
