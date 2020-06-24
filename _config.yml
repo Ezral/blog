@@ -99,7 +99,7 @@ description:    "アルドニ"
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        "/blog"
+baseurl:        ""
 
 # Flatten base
 #
