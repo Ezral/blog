@@ -99,7 +99,7 @@ description:    "アルドニ"
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        "/ezral.github.io"
+baseurl:        "/blog"
 
 # Flatten base
 #
