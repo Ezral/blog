@@ -131,7 +131,7 @@
   --bg-color-dark: hsl(var(--bg-color-h), var(--bg-color-s), calc(var(--bg-color-l) * .9));
 
   // Color - code color
-  --code-color-h: calc(var(--link-color-h) + 30);
+  --code-color-h: calc(var(--link-color-h) + 20);
   --code-color-s: calc(var(--link-color-s) * .2 + 30%);
   --code-color-l: var(--link-color-l);
   --code-color-hsl: var(--code-color-h), var(--code-color-s), var(--code-color-l);
