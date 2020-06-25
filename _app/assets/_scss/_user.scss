@@ -7,7 +7,7 @@
 // By default all heading levels have the same font size, but many people may
 // not like this, so here's an alternative font size stack:
 // .content {
-     h2 { font-size: 100%; opacity: .8; }
+//   h2 { font-size: 100%; opacity: .8; }
 //   h3 { font-size: 96%;  opacity: .7; }
 //   h4 { font-size: 84%;  opacity: .6; }
 //   h5 { font-size: 72%;  opacity: .5; }
@@ -35,7 +35,7 @@
   --fontstack-default: var(--fontstack-prefix) var(--fontstack-sans-serif);
   --font-size-base: 1rem;
   --font-size-factor: 1vw;
-  --font-size: 1.2vw;
+  --font-size: 1.5vw;
   // TODO: Swtich to viewport width factor-based font size
   // --font-size: calc(var(--font-size-base) + var(--font-size-factor));
   --font-features: "halt", "ss01", "ss02";

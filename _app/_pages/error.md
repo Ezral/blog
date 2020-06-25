@@ -2,7 +2,7 @@
 layout: page
 title: Error‽
 permalink: /404.html
-desc: 錯誤・エラー・Oops
+desc: エラー・Oops
 category: home
 hidden: true
 css: |

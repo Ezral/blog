@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-25T05:39:30+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-25T13:15:30+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Almace Scaffolding Quick Post</title><id>https://ezral.net/Almace-Scaffolding-quick-post.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Almace-Scaffolding-quick-post.html" /><published>2020-06-25T00:00:00+00:00</published><updated>2020-06-25T13:14:39+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+          
+            &lt;p&gt;I wrote a snippet to quickly open draft for my Almace Scaffolding powered blog from command line.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function blog () {
+    local DATE=$(date +&quot;%Y-%m-%d&quot;);
+    title=$3
+    touch /Users/user/github_repo/my-site/_app/_posts/$1/$DATE-$3.md;
+    echo &quot;---\nlayout: post\ntitle: ${title//-/ }\ncategory: $1\ntags: $2\n---\n\nwrite here\n\n---&quot; &amp;gt; /Users/user/github_repo/my-site/_app/_posts/$1/$DATE-$3.md;
+    echo &quot;\n$DATE-$3.md has been created in ~/github_repo/my-site/_app/_posts/$1\n&quot;
+    cd /Users/user/github_repo/my-site/_app/_posts/$1
+    atom /Users/user/github_repo/my-site/_app/_posts/$1/$DATE-$3.md;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;And since I have to generate all the html content for every time I make any changes, I wrote a function to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grunt build&lt;/code&gt;, re-adding CNAME file that gets deleted by grunt and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add&lt;/code&gt; followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git status&lt;/code&gt; to compile all those steps into one line.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function buildblog() {
+    cd /Users/user/github_repo/my-site/
+    grunt build;
+    echo &quot;site.com&quot; &amp;gt;&amp;gt; /Users/user/github_repo/my-site/docs/CNAME;
+    git add docs/* _app/*;
+    git status;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;After making sure that everything is ok, I can just  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+          
+          
+        
+      
+        </content><summary>I wrote a snippet to quickly open draft for my Almace Scaffolding powered blog from command line.function blog () {    local DATE=$(date +&quot;%Y-%m-%d&quot;);    title=$3    touch /Users/user/github_repo/my-site/_app/_posts/$1/$DATE-$3.md;    echo &quot;---\nlayout: post\ntitle: ${title//-/ }\ncategory: $1\ntags: $2\n---\n\nwrite here\n\n---&quot; &amp;gt; /Users/user/github_repo/my-site/_app/_posts/$1/$DATE-$3.md;    echo &quot;\n$DATE-$3.md has been created in ~/github_repo/my-site/_app/_posts/$1\n&quot;    cd /Users/user/github_repo/my-site/_app/_posts/$1    atom /Users/user/github_repo/my-site/_app/_posts/$1/$DATE-$3.md;}And since I have to generate all the html content for every time I make any changes, I wrote a function to grunt build, re-adding CNAME file that gets deleted by grunt and git add followed by git status to compile all those steps into one line.function buildblog() {    cd /Users/user/github_repo/my-site/    grunt build;    echo &quot;site.com&quot; &amp;gt;&amp;gt; /Users/user/github_repo/my-site/docs/CNAME;    git add docs/* _app/*;    git status;}After making sure that everything is ok, I can just  git commit and git push.</summary></entry><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Jakarta is one cities with the highest doctor density (per 1,000 population) which is comparable to Singapore or Seoul that have around 2.3 to 2.4 doctors per 1,000 population.&lt;/p&gt;
 
