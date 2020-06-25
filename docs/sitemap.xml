@@ -1,1 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://ezral.net/</loc><lastmod>2020-06-25</lastmod></url><url><loc>https://ezral.net/about/</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/medical/</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/news/</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/doctor-proportion.html</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/data-quest-guided-project.html</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/setting-up-zsh.html</loc><lastmod>2020-06-24</lastmod></url><url><loc>https://ezral.net/air-medical-evacuation.html</loc><lastmod>2020-06-24</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://0.0.0.0:4321/</loc>
+    <lastmod>2020-06-25</lastmod>
+  </url>
+
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/about/</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/medical/</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/news/</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/doctor-proportion.html</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/data-quest-guided-project.html</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/setting-up-zsh.html</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/air-medical-evacuation.html</loc>
+        
+          <lastmod>2020-06-24</lastmod>
+        
+      </url>
+    
+  
+
+</urlset>
