@@ -5,7 +5,7 @@ category: news
 tags: comp
 ---
 
-I wrote a snippet to quickly open draft for my Almace Scaffolding powered blog from command line.
+This is a snippet I use to quickly create a post draf for Almace Scaffolding from command line.
 
 {% highlight zsh %}
 function blog () {
