@@ -3,6 +3,11 @@ layout: post
 title: Air Medical Evacuation
 category: news
 tags: misc
+scheme-text: "#ABB2BF"
+scheme-link: "#E06C75"
+scheme-hover: "#E45649"
+scheme-code: "#61AFEF"
+scheme-bg: "#1E2127"
 ---
 
 If you’re fortunate enough, you’d have enough fortune to spend to fly¹ you from one location to another for the sake of better medical treatment quality.
