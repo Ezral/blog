@@ -94,7 +94,7 @@ If you're like me and you're using Conda for your jupyter notebook, you need to 
 {% highlight zsh %}
  >>> conda initialize >>>
  !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/medicalagent3/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/user/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
