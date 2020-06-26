@@ -85,9 +85,9 @@
   --text-color-dark: hsl(var(--text-color-h), var(--text-color-s), calc(var(--text-color-l) * .9));
 
   // Color - link color
-  --link-color-h: 139;
-  --link-color-s: 48%;
-  --link-color-l: 53%;
+  --link-color-h: 348;
+  --link-color-s: 83%;
+  --link-color-l: 65%;
   --link-color-hsl: var(--link-color-h), var(--link-color-s), var(--link-color-l);
 
   --link-color: hsl(var(--link-color-hsl));
@@ -108,9 +108,9 @@
   --link-color-dark: hsl(var(--link-color-h), var(--link-color-s), calc(var(--link-color-l) * .9));
 
   // Color - background color
-  --bg-color-h: 348;
-  --bg-color-s: 83%;
-  --bg-color-l: 65%;
+  --bg-color-h: 318;
+  --bg-color-s: 30%;
+  --bg-color-l: 100%;
   --bg-color-hsl: var(--bg-color-h), var(--bg-color-s), var(--bg-color-l);
 
   --bg-color: hsl(var(--bg-color-hsl));
