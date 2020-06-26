@@ -144,6 +144,8 @@ Background:     1E2127        Background:     F9F9F9
 
 The background color I used also follows the One Dark black color which hex is ```1E2127```. You can change it to ```FEFDF9``` or ```FEF4EB``` if you want a peach colored background.
 
+---
+
  References
    - [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
    - [Spaceship ZSH prompt](https://denysdovhan.com/spaceship-prompt/)
