@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-desc: おれ人のこと・TMI
+desc: おれのこと・FYR
 ---
 
 This site is intended to document things I find interesting in life.

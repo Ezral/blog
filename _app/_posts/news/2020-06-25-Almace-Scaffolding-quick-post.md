@@ -34,6 +34,6 @@ function buildblog() {
 }
 {% endhighlight %}
 
-After making sure that everything is ok, I can just  ```git commit``` and ```git push```.
+And that's how I get them posts published.
 
 ---
