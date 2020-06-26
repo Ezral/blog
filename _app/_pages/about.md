@@ -3,6 +3,11 @@ layout: page
 title: About
 permalink: /about/
 desc: おれのこと・FYR
+scheme-text: "#ABB2BF"
+scheme-link: "#E06C75"
+scheme-hover: "#E45649"
+scheme-code: "#61AFEF"
+scheme-bg: "#1E2127"
 ---
 
 This site is intended to document things I find interesting in life.

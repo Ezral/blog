@@ -85,9 +85,9 @@
   --text-color-dark: hsl(var(--text-color-h), var(--text-color-s), calc(var(--text-color-l) * .9));
 
   // Color - link color
-  --link-color-h: 212;
-  --link-color-s: 97%;
-  --link-color-l: 43%;
+  --link-color-h: 175;
+  --link-color-s: 78%;
+  --link-color-l: 73%;
   --link-color-hsl: var(--link-color-h), var(--link-color-s), var(--link-color-l);
 
   --link-color: hsl(var(--link-color-hsl));
