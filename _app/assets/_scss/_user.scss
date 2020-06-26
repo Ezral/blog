@@ -108,9 +108,9 @@
   --link-color-dark: hsl(var(--link-color-h), var(--link-color-s), calc(var(--link-color-l) * .9));
 
   // Color - background color
-  --bg-color-h: 318;
-  --bg-color-s: 30%;
-  --bg-color-l: 100%;
+  --bg-color-h: 348;
+  --bg-color-s: 83%;
+  --bg-color-l: 65%;
   --bg-color-hsl: var(--bg-color-h), var(--bg-color-s), var(--bg-color-l);
 
   --bg-color: hsl(var(--bg-color-hsl));
@@ -155,6 +155,6 @@
 }
 
 .content .sub-title {
-  font-size: 108%;
+  font-size: 110%;
   opacity: .8;
 }
