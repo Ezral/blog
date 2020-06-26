@@ -5,7 +5,7 @@ category: news
 tags: comp
 ---
 
-This is a snippet I use to quickly create a post draf for Almace Scaffolding from command line.
+This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.
 
 {% highlight zsh %}
 function blog () {
@@ -23,11 +23,14 @@ And since I have to generate all the html content for every time I make any chan
 
 {% highlight zsh %}
 function buildblog() {
-    cd /Users/user/github_repo/my-site/
-    grunt build;
-    echo "site.com" >> /Users/user/github_repo/my-site/docs/CNAME;
+    cd /Users/medicalagent3/github_repo/my-site/;
+    grunt --force build;
+    echo "ezral.net" > temp | mv -f temp /Users/medicalagent3/github_repo/my-site/docs/CNAME;
+    rm temp;
     git add docs/* _app/*;
     git status;
+    git commit -m $1;
+    git push;
 }
 {% endhighlight %}
 
