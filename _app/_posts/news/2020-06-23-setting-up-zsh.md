@@ -5,7 +5,7 @@ category: news
 tags: comp
 ---
 
-MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it's the right time to get to know zsh. Here's how I setup my zsh after doing a quick research on the web.
+MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it's the right time to get to know zsh. Here's how I setup my zsh after doing a quick search on the web.
 
 
 

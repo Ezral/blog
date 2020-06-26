@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-26T07:18:12+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T06:19:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-26T07:39:00+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T06:19:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from medschool not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of &lt;a href=&quot;https://www.youtube.com/user/Touzeau123/videos&quot;&gt;youtube&lt;/a&gt; and &lt;a href=&quot;https://hwcdn.libsyn.com/p/7/d/0/7d0967dfb2767d3e/ECG_in_Acute_MI_The_-_Unknown.pdf?c_id=8655857&amp;amp;cs_id=8655857&amp;amp;expiration=1593152643&amp;amp;hwt=ca3ce89ec87288cb4fcaa3918827eaf1&quot;&gt;reading&lt;/a&gt; and doing &lt;a href=&quot;https://www.amazon.com/ECGs-Emergency-Physician-Amal-Mattu/dp/0727916548&quot;&gt;exercises&lt;/a&gt;. Eventually I was able to read &lt;em&gt;(though still not great at it)&lt;/em&gt; properly.&lt;/p&gt;
 
@@ -11,7 +11,7 @@
           
         
       
-        </content><summary>Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from medschool not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises. Eventually I was able to read (though still not great at it) properly.</summary></entry><entry><title>Almace Scaffolding Quick Post</title><id>https://ezral.net/Almace-Scaffolding-quick-post.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Almace-Scaffolding-quick-post.html" /><published>2020-06-25T00:00:00+00:00</published><updated>2020-06-25T16:38:30+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from medschool not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises. Eventually I was able to read (though still not great at it) properly.</summary></entry><entry><title>Almace Scaffolding Quick Post</title><id>https://ezral.net/Almace-Scaffolding-quick-post.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Almace-Scaffolding-quick-post.html" /><published>2020-06-25T00:00:00+00:00</published><updated>2020-06-26T07:18:32+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.&lt;/p&gt;
 
@@ -28,9 +28,9 @@
 &lt;p&gt;And since I have to generate all the html content for every time I make any changes, I wrote a function to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grunt build&lt;/code&gt;, re-adding CNAME file that gets deleted by grunt and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add&lt;/code&gt; followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git status&lt;/code&gt; to compile all those steps into one line.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;k&quot;&gt;function &lt;/span&gt;buildblog&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /Users/medicalagent3/github_repo/my-site/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /Users/user/github_repo/my-site/&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     grunt &lt;span class=&quot;nt&quot;&gt;--force&lt;/span&gt; build&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ezral.net&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; temp | &lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; temp /Users/medicalagent3/github_repo/my-site/docs/CNAME&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;site.com&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; temp | &lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; temp /Users/user/github_repo/my-site/docs/CNAME&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;temp&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     git add docs/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; _app/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     git status&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -49,16 +49,15 @@
       
         </content><summary>This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.</summary></entry><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-25T16:38:30+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
-            &lt;p&gt;This is bar chart showing doctor density for each province in Indonesia with color gradient describing the land km square of the province.&lt;/p&gt;
+            &lt;p&gt;&lt;img src=&quot;/assets/img/img1.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a bar chart showing doctor density for each province in Indonesia with color gradient describing the land km square of the province.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Available statistics show that over 45% of WHO Member States report to have less than 1 physician
 per 1,000 population.
-— &lt;a href=&quot;https://www.who.int/gho/health_workforce/physicians_density/en/&quot;&gt;World Health Organization&lt;/a&gt;
-—&lt;/p&gt;
+— &lt;a href=&quot;https://www.who.int/gho/health_workforce/physicians_density/en/&quot;&gt;World Health Organization&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/img1.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -67,7 +66,7 @@ per 1,000 population.
           
         
       
-        </content><summary>This is bar chart showing doctor density for each province in Indonesia with color gradient describing the land km square of the province.</summary></entry><entry><title>Dataquest Guided Project</title><id>https://ezral.net/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary></summary></entry><entry><title>Dataquest Guided Project</title><id>https://ezral.net/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on &lt;a href=&quot;https://dataquest.io&quot;&gt;Dataquest&lt;/a&gt;. Little did I know that I was going to like it this much.
 I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about &lt;a href=&quot;https://nbviewer.jupyter.org/urls/community.dataquest.io/uploads/short-url/6dRDpeZHZCHxZUwyDrGKo3DMrcv.ipynb&quot;&gt;Star Wars movie survey&lt;/a&gt;.&lt;/p&gt;
@@ -81,7 +80,7 @@ I figure I’d keep one of the first Dataquest guided projects that I completed 
       
         </content><summary>From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on Dataquest. Little did I know that I was going to like it this much.I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about Star Wars movie survey.</summary></entry><entry><title>Setting up ZSH</title><id>https://ezral.net/setting-up-zsh.html</id><link rel="alternate" type="text/html" href="https://ezral.net/setting-up-zsh.html" /><published>2020-06-23T00:00:00+00:00</published><updated>2020-06-24T18:47:49+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
-            &lt;p&gt;MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick research on the web.&lt;/p&gt;
+            &lt;p&gt;MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick search on the web.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1. Installing oh-my-zsh&lt;/strong&gt;&lt;/p&gt;
 
@@ -224,7 +223,7 @@ Background:     1E2127        Background:     F9F9F9
           
         
       
-        </content><summary>MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick research on the web.</summary></entry><entry><title>Air Medical Evacuation</title><id>https://ezral.net/air-medical-evacuation.html</id><link rel="alternate" type="text/html" href="https://ezral.net/air-medical-evacuation.html" /><published>2020-06-22T00:00:00+00:00</published><updated>2020-06-25T16:01:48+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick search on the web.</summary></entry><entry><title>Air Medical Evacuation</title><id>https://ezral.net/air-medical-evacuation.html</id><link rel="alternate" type="text/html" href="https://ezral.net/air-medical-evacuation.html" /><published>2020-06-22T00:00:00+00:00</published><updated>2020-06-25T16:01:48+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;If you’re fortunate enough, you’d have enough fortune to spend to fly¹ you from one location to another for the sake of better medical treatment quality.&lt;/p&gt;
 
