@@ -13,9 +13,9 @@ MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bas
 
 I installed _[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)_ via curl:
 
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+{% highlight zsh %}
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+{% endhighlight %}
 
 Oh-my-zsh will write its default ```.zshrc``` onto ours and that will makes things easier to customize.
 
@@ -24,23 +24,23 @@ Oh-my-zsh will write its default ```.zshrc``` onto ours and that will makes thin
  __2. Setting up oh-y-zsh theme__
 
 There are plenty of great looking themes but I like this clean looking [spaceship](https://github.com/denysdovhan/spaceship-prompt) theme. Clone the repo to install:
-```
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-```
+{% highlight zsh %}
+$ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+{% endhighlight %}
 
 Then symlink ```spaceship.zsh-theme``` to the oh-my-zsh custom themes directory:
-```
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-```
+{% highlight zsh %}
+$ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+{% endhighlight %}
 
 And set ```ZSH_THEME="spaceship"``` in your ```.zshrc```. To set up the prompt, you can see the prompt options [here](https://denysdovhan.com/spaceship-prompt/docs/Options.htmlprompt). The setup I'm using in my ```.zshrc``` is like this:
-```
+{% highlight zsh %}
 SPACESHIP_USER_SHOW=always
 SPACESHIP_USER_COLOR=green
 SPACESHIP_USER_SUFFIX=' '
 SPACESHIP_HOST_PREFIX="@"
 SPACESHIP_HOST_SUFFIX=" "
-```
+{% endhighlight %}
 
 ---
 
@@ -49,10 +49,10 @@ SPACESHIP_HOST_SUFFIX=" "
 I used [FiraCode](https://github.com/tonsky/FiraCode). Installation instructions can be found in FiraCode [wiki](https://github.com/tonsky/FiraCode/wiki/Installing).
 Homebrew offers a quick way to do it:
 
-```
-brew tap homebrew/cask-fonts
-brew cask install font-fira-code
-```
+{% highlight zsh %}
+$ brew tap homebrew/cask-fonts
+$ brew cask install font-fira-code
+{% endhighlight %}
 
 Once installed, select to use the font in your Terminal emulator preference.
 
@@ -61,24 +61,24 @@ Once installed, select to use the font in your Terminal emulator preference.
  __4. Setting up oh-my-zsh plugins__
 
 To install zsh-syntax-highlighting in your ```~/.zshrcs```, first clone the repo:
-```
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-```
+{% highlight zsh %}
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+{% endhighlight %}
 
 Then, enable syntax highlighting in the current interactive shell by adding the line below:
-```
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-```
+{% highlight zsh %}
+$ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+{% endhighlight %}
 
 Note the `source` command must be **at the end** of `~/.zshrc`. Next, clone zsh-syntax-suggestion repo as well to install it:
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-```
+{% highlight zsh %}
+$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+{% endhighlight %}
 
 To enable it we need to add the plugin in your ```.zshrc```:
-```
+{% highlight zsh %}
 plugins=(git zsh-autosuggestions)
-```
+{% endhighlight %}
 
 ---
 
@@ -91,7 +91,7 @@ If you have your aliases already setup in bash or other shell, you can just copy
 __6. Add Conda setup__
 
 If you're like me and you're using Conda for your jupyter notebook, you need to make sure that you put the following script into your ```.zshrc```:
-```
+{% highlight zsh %}
  >>> conda initialize >>>
  !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/medicalagent3/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -106,7 +106,7 @@ else
 fi
 unset __conda_setup
  <<< conda initialize <<<
-```
+{% endhighlight %}
 
 To activate or deactivate your conda environment use the command ```conda activate``` or ```conda deactivate``` on your command prompt.
 

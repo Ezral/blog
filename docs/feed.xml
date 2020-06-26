@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-26T12:50:39+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T09:01:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>アルドニ</subtitle><updated>2020-06-26T13:49:56+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T09:01:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;&lt;img src=&quot;/assets/img/img2.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
 
@@ -9,7 +9,7 @@
           
         
       
-        </content><summary></summary></entry><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T12:43:06+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary></summary></entry><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-26T12:51:00+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from medschool not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises.&lt;/p&gt;
 
@@ -104,8 +104,7 @@ I figure I’d keep one of the first Dataquest guided projects that I completed 
 
 &lt;p&gt;I installed &lt;em&gt;&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot;&gt;oh-my-zsh&lt;/a&gt;&lt;/em&gt; via curl:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sh &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Oh-my-zsh will write its default &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; onto ours and that will makes things easier to customize.&lt;/p&gt;
 
@@ -114,20 +113,20 @@ I figure I’d keep one of the first Dataquest guided projects that I completed 
 &lt;p&gt;&lt;strong&gt;2. Setting up oh-y-zsh theme&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;There are plenty of great looking themes but I like this clean looking &lt;a href=&quot;https://github.com/denysdovhan/spaceship-prompt&quot;&gt;spaceship&lt;/a&gt; theme. Clone the repo to install:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/denysdovhan/spaceship-prompt.git &quot;$ZSH_CUSTOM/themes/spaceship-prompt&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/denysdovhan/spaceship-prompt.git &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/themes/spaceship-prompt&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then symlink &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;spaceship.zsh-theme&lt;/code&gt; to the oh-my-zsh custom themes directory:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ln -s &quot;$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme&quot; &quot;$ZSH_CUSTOM/themes/spaceship.zsh-theme&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/themes/spaceship-prompt/spaceship.zsh-theme&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/themes/spaceship.zsh-theme&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ZSH_THEME=&quot;spaceship&quot;&lt;/code&gt; in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;. To set up the prompt, you can see the prompt options &lt;a href=&quot;https://denysdovhan.com/spaceship-prompt/docs/Options.htmlprompt&quot;&gt;here&lt;/a&gt;. The setup I’m using in my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; is like this:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SPACESHIP_USER_SHOW=always
-SPACESHIP_USER_COLOR=green
-SPACESHIP_USER_SUFFIX=' '
-SPACESHIP_HOST_PREFIX=&quot;@&quot;
-SPACESHIP_HOST_SUFFIX=&quot; &quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;SPACESHIP_USER_SHOW&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;always
+&lt;span class=&quot;nv&quot;&gt;SPACESHIP_USER_COLOR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;green
+&lt;span class=&quot;nv&quot;&gt;SPACESHIP_USER_SUFFIX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;SPACESHIP_HOST_PREFIX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;@&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;SPACESHIP_HOST_SUFFIX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
 
@@ -136,9 +135,8 @@ SPACESHIP_HOST_SUFFIX=&quot; &quot;
 &lt;p&gt;I used &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;FiraCode&lt;/a&gt;. Installation instructions can be found in FiraCode &lt;a href=&quot;https://github.com/tonsky/FiraCode/wiki/Installing&quot;&gt;wiki&lt;/a&gt;.
 Homebrew offers a quick way to do it:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap homebrew/cask-fonts
-brew cask install font-fira-code
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;brew tap homebrew/cask-fonts
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;brew cask &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;font-fira-code&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Once installed, select to use the font in your Terminal emulator preference.&lt;/p&gt;
 
@@ -147,20 +145,20 @@ brew cask install font-fira-code
 &lt;p&gt;&lt;strong&gt;4. Setting up oh-my-zsh plugins&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;To install zsh-syntax-highlighting in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrcs&lt;/code&gt;, first clone the repo:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git &lt;span class=&quot;nv&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;/plugins/zsh-syntax-highlighting&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then, enable syntax highlighting in the current interactive shell by adding the line below:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Note the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;source&lt;/code&gt; command must be &lt;strong&gt;at the end&lt;/strong&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;. Next, clone zsh-syntax-suggestion repo as well to install it:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/zsh-users/zsh-autosuggestions.git &lt;span class=&quot;nv&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;/plugins/zsh-autosuggestions&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;To enable it we need to add the plugin in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plugins=(git zsh-autosuggestions)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;plugins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt;git zsh-autosuggestions&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
 
@@ -173,21 +171,21 @@ brew cask install font-fira-code
 &lt;p&gt;&lt;strong&gt;6. Add Conda setup&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’re like me and you’re using Conda for your jupyter notebook, you need to make sure that you put the following script into your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;gt;&amp;gt;&amp;gt; conda initialize &amp;gt;&amp;gt;&amp;gt;
- !! Contents within this block are managed by 'conda init' !!
-__conda_setup=&quot;$('/Users/medicalagent3/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2&amp;gt; /dev/null)&quot;
-if [ $? -eq 0 ]; then
-    eval &quot;$__conda_setup&quot;
-else
-    if [ -f &quot;~/opt/anaconda3/etc/profile.d/conda.sh&quot; ]; then
-        . &quot;~/opt/anaconda3/etc/profile.d/conda.sh&quot;
-    else
-        export PATH=&quot;~/opt/anaconda3/bin:$PATH&quot;
-    fi
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; conda initialize &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;!!&lt;/span&gt; Contents within this block are managed by &lt;span class=&quot;s1&quot;&gt;'conda init'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!!&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;__conda_setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/Users/medicalagent3/opt/anaconda3/bin/conda'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'shell.zsh'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'hook'&lt;/span&gt; 2&amp;gt; /dev/null&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$?&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-eq&lt;/span&gt; 0 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$__conda_setup&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else
+    if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~/opt/anaconda3/etc/profile.d/conda.sh&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~/opt/anaconda3/etc/profile.d/conda.sh&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else
+        &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~/opt/anaconda3/bin:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;fi
 fi
-unset __conda_setup
- &amp;lt;&amp;lt;&amp;lt; conda initialize &amp;lt;&amp;lt;&amp;lt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;unset &lt;/span&gt;__conda_setup
+ &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt; conda initialize &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;To activate or deactivate your conda environment use the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda activate&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conda deactivate&lt;/code&gt; on your command prompt.&lt;/p&gt;
 
