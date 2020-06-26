@@ -5,6 +5,6 @@ category: news
 tags: data
 ---
 
-![doc_proportion](/assets/img/img1.png)
+![doc_proportion](/assets/img/img2.png)
 
 ---
