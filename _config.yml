@@ -89,7 +89,7 @@ name_short:     Ezral
 # Will be used in the document meta and Atom feed subtitle
 #
 # Default:      Super-fast Jekyll framework
-description:    "アルドニ"
+description:    "Projects, articles and random thoughts"
 
 # Base URL
 #
@@ -212,7 +212,7 @@ rss_excerpt:    false
 # Show or hide generator credits, require theme support
 #
 # Default:      true
-credits:        true
+credits:        false
 
 # Custom records in robots.txt
 #
