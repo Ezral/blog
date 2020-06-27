@@ -3,6 +3,12 @@ layout: post
 title: Setting up ZSH
 category: news
 tags: comp
+# Scheme for about and comp pages
+scheme-text: "#ABB2BF"
+scheme-link: "#E06C75"
+scheme-hover: "#E45649"
+scheme-code: "#61AFEF"
+scheme-bg: "#1E2127"
 ---
 
 MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it's the right time to get to know zsh. Here's how I setup my zsh after doing a quick search on the web.
