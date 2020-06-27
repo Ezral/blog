@@ -10,10 +10,10 @@ scheme-code: "#61AFEF"
 scheme-bg: "#1E2127"
 ---
 
-Documentation of things I find interesting.
+Documentation for the things I find interesting.
 Random thoughts and rants of an Indonesian MD who happens to be a コーヒ と ブラジルの柔術 ¹ enthusiast.
 ```
-¹Coffee and BJJ.
+¹ Coffee and BJJ.
 ```
 
 <sup><sup><sup>All views expressed on this site are the author’s own opinion and do not represent the opinions of any affiliation that the author has.</sup></sup></sup>

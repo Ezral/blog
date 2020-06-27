@@ -11,7 +11,7 @@ scheme-code: "#61AFEF"
 scheme-bg: "#fefef5"
 ---
 
-Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from medschool not being really comfortable reading them. I'd be able to spot things like myocardial infarction but I wasn't really able to properly read them. There's this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises.
+Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from not being really comfortable reading them. I'd be able to spot things like myocardial infarction but I wasn't really able to properly read them. There's this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises.
 
 I'd strongly recommend the following resources to those wanting to learn to interpret ECGs:
 - Watch all ECG  videos in [Touzeau123's youtube channel](https://www.youtube.com/user/Touzeau123/videos),
