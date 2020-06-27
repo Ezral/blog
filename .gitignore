@@ -42,3 +42,6 @@ _amsf/core
 
 # user script
 mysite.zsh
+
+docs/example-about/index.html
+docs/example-news/index.html
