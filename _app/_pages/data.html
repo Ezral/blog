@@ -1,0 +1,11 @@
+---
+layout: page
+title: Data
+permalink: /data/
+desc: データ・FYI
+---
+
+<h2>Data Work</h2>
+{% for post in site.tags.data %}
+  {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
+{% endfor %}

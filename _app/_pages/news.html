@@ -5,17 +5,12 @@ permalink: /news/
 desc: ライフ・TIL
 ---
 
-<h2>Data Work</h2>
-{% for post in site.tags.data %}
+<h2>Miscellaneous</h2>
+{% for post in site.tags.misc %}
   {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
 {% endfor %}
 
 <h2>Computer Stuff</h2>
 {% for post in site.tags.comp %}
-  {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
-{% endfor %}
-
-<h2>Miscellaneous</h2>
-{% for post in site.tags.misc %}
   {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
 {% endfor %}
