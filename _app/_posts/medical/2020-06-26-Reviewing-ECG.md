@@ -2,7 +2,7 @@
 layout: post
 title: Reviewing ECG
 category: medical
-tags: ecg
+tags: [ecg, pin]
 # Scheme for medical and misc pages
 scheme-text: "#1d4e89"
 scheme-link: "#ffbdc4"
