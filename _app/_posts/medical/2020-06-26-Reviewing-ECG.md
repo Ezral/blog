@@ -11,7 +11,9 @@ scheme-code: "#61AFEF"
 scheme-bg: "#fefef5"
 ---
 
-Being able to read ECG was one of my main goals in the late years of medschool. After I graduated, I'd be able to recognize threatening ones but I wasn't really comfortable doing a proper interpretation. One time during a visit to the ICU a colleague pointed out something that I wasn't able to read. That was the turning point that led me to ECG self study which involved hours of youtube and reading and doing exercises.
+Being able to read ECG was one of my main goals in the late years of med school. After I graduated, I'd be able to recognise the life threatening ones but I wasn't really comfortable doing a proper interpretation. 
+One time during a visit to the ICU a colleague pointed out something that I wasn't able to read and it wasn't good.
+That was the turning point that led me to ECG self study which involved hours of youtube and reading and doing exercises.
 
 I'd strongly recommend the following resources to those wanting to learn to interpret ECGs:
 - Watch all ECG  videos in [Touzeau123's youtube channel](https://www.youtube.com/user/Touzeau123/videos),
