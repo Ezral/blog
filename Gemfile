@@ -10,3 +10,7 @@ end
 group :jekyll_plugins do
   gem "match_regex"
 end
+
+group :jekyll_plugins do
+  gem 'jekyll-katex'
+end

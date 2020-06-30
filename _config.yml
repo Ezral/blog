@@ -49,6 +49,7 @@ kramdown:
 # Plugins inside `jekyll_plugins` group in `Gemfile` will be actived by default
 plugins:
   - jekyll-last-modified-at
+  - jekyll-katex
 
 #
 # Almace Scaffolding settings
