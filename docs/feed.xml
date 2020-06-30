@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-06-30T07:26:22+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Dataquest Guided Project #2</title><id>https://ezral.net/Guided-project-Mobile-App-for-lottery-addiction.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Guided-project-Mobile-App-for-lottery-addiction.html" /><published>2020-06-30T00:00:00+00:00</published><updated>2020-06-30T07:20:44+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-06-30T07:27:39+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Dataquest Guided Project #2</title><id>https://ezral.net/Guided-project-Mobile-App-for-lottery-addiction.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Guided-project-Mobile-App-for-lottery-addiction.html" /><published>2020-06-30T00:00:00+00:00</published><updated>2020-06-30T07:26:43+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;This is another guided project from &lt;a href=&quot;dataquest.io&quot;&gt;Dataquest&lt;/a&gt; that I recently completed.
 It’s not really data heave like the usual ones because it’s focusing on probability.
@@ -11,7 +11,10 @@ For example,&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Click here]#Your-header
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;click-here-to-view-the-notebook&quot;&gt;Click &lt;a href=&quot;https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Mobile%20App%20for%20Lottery%20Addiction.ipynb&quot;&gt;here&lt;/a&gt; to view the notebook.&lt;/h2&gt;
+&lt;p&gt;Click &lt;a href=&quot;https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Mobile%20App%20for%20Lottery%20Addiction.ipynb&quot;&gt;here&lt;/a&gt; to view the notebook.&lt;/p&gt;
+
+&lt;hr /&gt;
+
 
           
           
@@ -103,7 +106,7 @@ per 1,000 population.
           
         
       
-        </content><summary></summary></entry><entry><title>Dataquest Guided Project #1</title><id>https://ezral.net/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary></summary></entry><entry><title>Dataquest Guided Project #1</title><id>https://ezral.net/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-30T07:26:43+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on &lt;a href=&quot;https://dataquest.io&quot;&gt;Dataquest&lt;/a&gt;. Little did I know that I was going to like it this much.
 I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about &lt;a href=&quot;https://nbviewer.jupyter.org/urls/community.dataquest.io/uploads/short-url/6dRDpeZHZCHxZUwyDrGKo3DMrcv.ipynb&quot;&gt;Star Wars movie survey&lt;/a&gt;.&lt;/p&gt;

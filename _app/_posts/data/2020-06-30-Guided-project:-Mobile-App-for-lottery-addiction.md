@@ -18,4 +18,5 @@ Will bring you to your ```# Anchor``` header. Note that you need to remove the w
 ```
 
 Click [here](https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Mobile%20App%20for%20Lottery%20Addiction.ipynb) to view the notebook.
+
 ---
