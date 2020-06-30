@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-06-28T11:39:07+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-28T07:17:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-06-30T07:15:53+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><entry><title></title><id>https://ezral.net/2020-06-30-Guided-project-Mobile-App-for-lottery-addiction.html</id><link rel="alternate" type="text/html" href="https://ezral.net/2020-06-30-Guided-project-Mobile-App-for-lottery-addiction.html" /><published>2020-06-30T07:15:53+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+          
+            &lt;p&gt;This is another guided project from &lt;a href=&quot;dataquest.io&quot;&gt;Dataquest&lt;/a&gt; that I recently completed.
+It’s not really data heave like the usual ones because it’s focusing on probability.
+I particularly enjoy this one where I learned how to write math formula using TeX.
+Something different that I tried is using the anchor on the notebook page using the header which turned out to be real simple.
+For example,&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Click here](#Anchor)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Will bring you to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;# Anchor&lt;/code&gt; header. Note that you need to remove the whitespace. If you have space on your anchor, then replace them with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;-&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;click-here-to-view-the-notebook&quot;&gt;Click &lt;a href=&quot;https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Mobile%20App%20for%20Lottery%20Addiction.ipynb&quot;&gt;here&lt;/a&gt; to view the notebook.&lt;/h2&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-28T07:17:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises.&lt;/p&gt;
 
@@ -18,7 +35,7 @@
           
         
       
-        </content><summary>Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises.</summary></entry><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-27T18:02:26+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>Being able to read ECG was one of my main goals in the late years of medschool. I ended up graduating from not being really comfortable reading them. I’d be able to spot things like myocardial infarction but I wasn’t really able to properly read them. There’s this one time where a senior doctor would explain the reading of a strip and I was sort of lost. That was the turning point that led me to doing a self study which involved hours of youtube and reading and doing exercises.</summary></entry><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;&lt;img src=&quot;/assets/img/img2.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
 
@@ -65,7 +82,7 @@
           
         
       
-        </content><summary>This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.</summary></entry><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-28T07:17:01+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.</summary></entry><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;&lt;img src=&quot;/assets/img/img1.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
 
@@ -84,7 +101,7 @@ per 1,000 population.
           
         
       
-        </content><summary></summary></entry><entry><title>Dataquest Guided Project</title><id>https://ezral.net/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-27T18:02:26+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary></summary></entry><entry><title>Dataquest Guided Project</title><id>https://ezral.net/data-quest-guided-project.html</id><link rel="alternate" type="text/html" href="https://ezral.net/data-quest-guided-project.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>aldoni@yahoo.com</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on &lt;a href=&quot;https://dataquest.io&quot;&gt;Dataquest&lt;/a&gt;. Little did I know that I was going to like it this much.
 I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about &lt;a href=&quot;https://nbviewer.jupyter.org/urls/community.dataquest.io/uploads/short-url/6dRDpeZHZCHxZUwyDrGKo3DMrcv.ipynb&quot;&gt;Star Wars movie survey&lt;/a&gt;.&lt;/p&gt;
