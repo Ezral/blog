@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Guided-project:-Mobile-App-for-lottery-addiction
+title: Guided project: Mobile App-for lottery addiction
 category: data
 tags: dataquest
 ---
