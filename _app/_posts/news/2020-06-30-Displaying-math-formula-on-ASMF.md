@@ -28,7 +28,8 @@ end
 {% endhighlight %}
 
 Once this is done, execute ```bundle install```
-3. Place the following script into ```/my-site/_includes/themes/curtana/includes/top.html``` :
+3. Place the following script into your
+```/my-site/_includes/themes/curtana/includes/top.html``` :
 
 {% highlight ruby %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">

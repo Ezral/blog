@@ -27,7 +27,7 @@ For example,
 [Click here](#Anchor)
 {% endhighlight %}
 
-Will bring you to your ``` # Anchor``` header. Note that you need to remove the whitespace between # and your header. If you have whitespace on your header you need to replace them with ```"-"```. For example ``` # Your header``` should be written like this
+Will bring you to your  ```# Anchor``` header. Note that you need to remove the whitespace between # and your header. If you have whitespace on your header you need to replace them with ```"-"```. For example  ``` # Your header``` should be written like this
 
 {% highlight md %}
 [Click here](#Your-header)
