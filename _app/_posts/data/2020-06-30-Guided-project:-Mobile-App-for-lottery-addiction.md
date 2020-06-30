@@ -6,14 +6,7 @@ tags: data
 ---
 This is another guided project from [Dataquest](dataquest.io) that I recently completed.
 It's not really data heavy like the usual ones as it focuses more on probability topic.
-I particularly enjoy this one where I learned how to write math formula using TeX.
-
-For example, the following:
-```
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
-```
-Will give this output:
-\frac{n!}{k!(n-k)!} = \binom{n}{k}
+I particularly enjoy this one where I learned how to write math formula using TeX in Jupyter Notebook.
 
 Another different thing that I tried is using anchors on the notebook page using the header which turned out to be real simple.
 For example,
