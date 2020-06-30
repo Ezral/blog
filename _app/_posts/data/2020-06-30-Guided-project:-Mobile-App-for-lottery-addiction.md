@@ -7,7 +7,15 @@ tags: data
 This is another guided project from [Dataquest](dataquest.io) that I recently completed.
 It's not really data heave like the usual ones because it's focusing on probability.
 I particularly enjoy this one where I learned how to write math formula using TeX.
-Something different that I tried is using the anchor on the notebook page using the header which turned out to be real simple.
+
+For example, the following:
+```
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+```
+Will give this output:
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+
+Another different thing that I tried is using anchors on the notebook page using the header which turned out to be real simple.
 For example,
 ```
 [Click here](#Anchor)
