@@ -5,7 +5,7 @@ category: data
 tags: data
 ---
 This is another guided project from [Dataquest](dataquest.io) that I recently completed.
-It's not really data heave like the usual ones because it's focusing on probability.
+It's not really data heavy like the usual ones as it focuses more on probability topic.
 I particularly enjoy this one where I learned how to write math formula using TeX.
 
 For example, the following:
