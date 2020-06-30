@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dataquest Guided Project
-category: news
+category: data
 plugin: lightense
 tags: data
 ---

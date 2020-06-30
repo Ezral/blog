@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Proportion of Doctors in Indonesia
-category: news
+category: data
 tags: data
 ---
 

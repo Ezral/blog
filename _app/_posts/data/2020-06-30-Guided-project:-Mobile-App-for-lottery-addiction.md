@@ -2,7 +2,7 @@
 layout: post
 title: Guided project: Mobile App-for lottery addiction
 category: data
-tags: dataquest
+tags: data
 ---
 This is another guided project from [Dataquest](dataquest.io) that I recently completed.
 It's not really data heave like the usual ones because it's focusing on probability.
