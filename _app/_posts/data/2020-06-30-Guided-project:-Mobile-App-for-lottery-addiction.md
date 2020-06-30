@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dataquest Guided Project #2
+title: "Dataquest Guided Project #2"
 category: data
 tags: data
 ---
@@ -12,7 +12,10 @@ For example,
 ```
 [Click here](#Anchor)
 ```
-Will bring you to your ```# Anchor``` header. Note that you need to remove the whitespace. If you have space on your anchor, then replace them with ```"-"```.
+Will bring you to your ```# Anchor``` header. Note that you need to remove the whitespace between # and your header. If you have whitespace on your header you need to replace them with ```"-"```. For example ```# Your header``` should be written like this
+```
+[Click here]#Your-header
+```
 
 Click [here](https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Mobile%20App%20for%20Lottery%20Addiction.ipynb) to view the notebook.
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dataquest Guided Project
+title: "Dataquest Guided Project #1"
 category: data
 plugin: lightense
 tags: data
