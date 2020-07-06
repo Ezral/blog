@@ -2,7 +2,7 @@
 layout: post
 title: "Dataquest guided project #3"
 category: data
-tags: data
+tags: [data, pin]
 ---
 
 By far this is the most interesting guided project that I've worked on in [Dataquest](https://dataquest.io) course. The goal is to write a basic spam filter algorithm using naive bayes as the foundation which uses the following principle:
