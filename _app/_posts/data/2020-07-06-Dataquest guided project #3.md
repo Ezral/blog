@@ -7,7 +7,7 @@ scheme-text: "#ABB2BF"
 scheme-link: "#E06C75"
 scheme-hover: "#E45649"
 scheme-code: "#61AFEF"
-scheme-bg: "##5C6370"
+scheme-bg: "#1E2127"
 ---
 
 ###### This is a [Dataquest guided project](https://app.dataquest.io/m/433/guided-project%3A-building-a-spam-filter-with-naive-bayes) originally written on [this jupyter notebook file](https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Building%20a%20Spam%20Filter%20with%20Naive%20Bayes.ipynb)
@@ -43,7 +43,7 @@ Now that we've covered the basics, let's start working~
 
 First we will import the packages that we'll be using and load the dataset. We'll also take a quick look at the dataset to familiarize ourselves with the data.
 
-
+###### in[ ]:
 ```python
 # Importing packages for data management
 import pandas as pd    # Importing pandas
@@ -62,33 +62,32 @@ from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 ```
 
-
+###### in[ ]:
 ```python
 # loading the dataset
 sms = pd.read_csv("SMSSpamCollection", sep='\t', header=None, names=['Label','spam_sms'])
 ```
 
-
+###### in[ ]:
 ```python
 # Shape and proportion of the dataset
 print("\nSMSSpamCollection dataset has {} rows and {} columns".format(sms.shape[0],sms.shape[1]))
 sms['Label'].value_counts(normalize=True)*100
 ```
+###### out[ ]:
 
-
+```
     SMSSpamCollection dataset has 5572 rows and 2 columns
-
-
-
-
 
     ham     86.593683
     spam    13.406317
     Name: Label, dtype: float64
-
+```
 
 
 [Back to top](#background)
+
+
 
 ---
 
@@ -100,7 +99,7 @@ Here's where the pre-labelled message will come into play. Basically we'll have 
 
 Since we have this 5,572 rows of messages, we'll split them into two sets, 80% for training and 20% for testing.
 
-
+###### in[ ]:
 ```python
 # Randomizing the dataset
 random_set = sms.sample(frac=1,random_state=1)
@@ -120,30 +119,18 @@ training['Label'].value_counts(normalize=True)*100
 print("Test dataset has {} rows.".format(test.shape[0]))
 test['Label'].value_counts(normalize=True)*100
 ```
-
-
+###### out[ ]:
+```
     Training dataset has 4458 rows.
-
-
-
-
-
     ham     86.54105
     spam    13.45895
     Name: Label, dtype: float64
 
-
-
     Test dataset has 1114 rows.
-
-
-
-
-
     ham     86.804309
     spam    13.195691
     Name: Label, dtype: float64
-
+```
 
 
 We've split them nicely and it looks like the proportion between the two is similar, which is good.
@@ -154,7 +141,7 @@ We've split them nicely and it looks like the proportion between the two is simi
 
 Up next, tidying the dataset. We'll clean the words by removing any punctuation and have all the words in lower case.
 
-
+###### in[ ]:
 ```python
 # Changing to lower case and replacing all punctuation
 def clean_punctuation(x):
@@ -171,13 +158,13 @@ training['spam_sms'] = training['spam_sms'].apply(clean_punctuation)
 
 To count the words, we need to split the words in the messages. By performing a split we'd be creating series containing lists that we can iterate to obtain the vocabulary frequency.
 
-
+###### in[ ]:
 ```python
 # Transforming messages in SMS column into list
 training['spam_sms'] = training['spam_sms'].str.split()
 ```
 
-
+###### in[ ]:
 ```python
 # Creating vocabulary from the SMS column
 vocabulary = []
@@ -193,21 +180,22 @@ for row in training['spam_sms']:
 The for loop function in the above should prevent any duplicate in the vocabulary list.
 Quick check to confirm that there's no duplicate:
 
-
+###### in[ ]:
 ```python
 len(vocabulary) == len(set(vocabulary))
 len(vocabulary)
 ```
-
+###### out[ ]:
+```
     True
     7783
-
+```
 
 The check returns ```True```, meaning there's no duplicated words and the vocabulary has 7,873 unique words in it.
 
 Now we can move on to the next step, which is counting the number of times a certain word is used and storing them into a dataframe. This dataframe will later be concatenated with training dataframe to complete the process.
 
-
+###### in[ ]:
 ```python
 # Creating word count per sms dictionary
 word_counts_per_sms = {unique_word: [0] * len(training['spam_sms']) for unique_word in vocabulary}
@@ -218,7 +206,7 @@ for index, sms in enumerate(training['spam_sms']):
         word_counts_per_sms[word][index] += 1
 ```
 
-
+###### in[ ]:
 ```python
 # Creating word count dataframe and concatenating it with training dataframe
 word_count_data = pd.DataFrame(word_counts_per_sms)
@@ -236,6 +224,7 @@ By having this we can obtain the frequency of a word on a certain label and subs
 Calculating $P(Spam)$, $P(Ham)$, $N_{Spam}$, $N_{Ham}$ and $N_{Vocabulary}$
 {% endkatexmm %}
 
+###### in[ ]:
 ```python
 # Calculating the constants
 p_ham=training_set['Label'].value_counts(normalize=True)[0]
@@ -282,6 +271,7 @@ P(w_{i} | Spam) = \frac{N_{w_{i}|Spam}+ \alpha}{N_{Spam} + N_{Vocabulary}}
 P(w_{i} | Ham) = \frac{N_{w_{i}|Ham}+ \alpha}{N_{Ham} + N_{Vocabulary}}
 {% endkatex %}
 
+###### in[ ]:
 ```python
 # Separating spam/ham messages
 spam_msg = training_set[training_set['Label']=='spam']
@@ -292,7 +282,7 @@ parameters_spam = {word: 0 for word in vocabulary}
 parameters_ham = {word: 0 for word in vocabulary}
 ```
 
-
+###### in[ ]:
 ```python
 # Calculating parameters:
 
@@ -315,6 +305,7 @@ for word in vocabulary:
 The spam filter works by comparing the $ P(Spam | Message)$ to $ P(Ham | Message)$ and assigning spam/ham label depending on which one has the larger proportion. To do this we'll use the following function:
 {% endkatexmm %}
 
+###### in[ ]:
 ```python
 # Spam filter function
 import re
@@ -350,27 +341,29 @@ def classify(message):
 
 Testing the ```classify``` function using a message that's clearly a spam:
 
-
+###### in[ ]:
 ```python
 classify('WINNER!! This is the secret code to unlock the money: C3421.')
 ```
-
+###### out[ ]:
+```
     P(Spam|message): 1.3481290211300841e-25
     P(Ham|message): 1.9368049028589875e-27
     Label: Spam
-
+```
 
 and using a message that's a ham:
 
-
+###### in[ ]:
 ```python
 classify("Sounds good, Tom, then see u there")
 ```
-
+###### out[ ]:
+```
     P(Spam|message): 2.4372375665888117e-25
     P(Ham|message): 3.687530435009238e-21
     Label: Ham
-
+```
 
 This shows that the function is working properly and we can apply it to the test set that we haven't touched yet. We'll do that while measuring the filter accuracy.
 
@@ -383,7 +376,7 @@ This shows that the function is working properly and we can apply it to the test
 To do this, we will compare the set that was not included in the training set, which is the test set, and compare the label given by the filter with the label that comes with the dataset, which is done by human.
 We'll adjust the ```classify``` function in the above to return a value instead of printing them so we can apply it to create a new column.
 
-
+###### in[ ]:
 ```python
 # Function to test the filter function
 def classify_test_set(message):
@@ -401,7 +394,7 @@ def classify_test_set(message):
         return 'Equal proabilities, have a human classify this!'
 ```
 
-
+###### in[ ]:
 ```python
 # Applying the function
 test['predicted'] = test['spam_sms'].apply(classify_test_set)
@@ -412,7 +405,7 @@ test['predicted'] = test['spam_sms'].apply(classify_test_set)
 {% endkatex %}
 The applied function works as expected. Next we'll do the calculation in the above on the dataset by using this for loop function below that will print the numbers:
 
-
+###### in[ ]:
 ```python
 # Measuring accuracy value
 correct = 0
@@ -426,11 +419,12 @@ print("Accuracy value of the spam filter is {}%.".format(correct/total * 100))
 print("Number of correct label: {}".format(correct))
 print("Number of incorrect label: {}".format(total-correct))
 ```
-
+###### out[ ]:
+```
     Accuracy value of the spam filter is 98.74326750448833%.
     Number of correct label: 1100
     Number of incorrect label: 14
-
+```
 
 ---
 
