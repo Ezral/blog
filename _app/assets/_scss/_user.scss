@@ -7,11 +7,12 @@
 // By default all heading levels have the same font size, but many people may
 // not like this, so here's an alternative font size stack:
 // .content {
-//   h2 { font-size: 100%; opacity: .8; }
-//   h3 { font-size: 96%;  opacity: .7; }
-//   h4 { font-size: 84%;  opacity: .6; }
-//   h5 { font-size: 72%;  opacity: .5; }
-//   h6 { font-size: 60%;  opacity: .4; }
+  h1 { font-size: 250%; opacity: .9; }
+  .content h2 { font-size: 200%; opacity: .8; margin: 10vmin 0 1rem}
+  .content h3 { font-size: 180%;  opacity: .7; margin: 10vmin 0 1rem}
+  .content h4, .content h5 { font-size: 100%;  opacity: .6; margin: 10vmin 0 1rem}
+  .content h6 { font-size: 100%;  opacity: .6;}
+
 // }
 
 // EXAMPLE: alternative post title color
