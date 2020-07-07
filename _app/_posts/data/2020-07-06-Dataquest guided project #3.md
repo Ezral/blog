@@ -5,7 +5,8 @@ category: data
 tags: [data, pin]
 ---
 
-###### Click [here](https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Building%20a%20Spam%20Filter%20with%20Naive%20Bayes.ipynb) to view original notebook
+###### This is a [Dataquest guided project](https://app.dataquest.io/m/433/guided-project%3A-building-a-spam-filter-with-naive-bayes) originally written on [this jupyter notebook file](https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Building%20a%20Spam%20Filter%20with%20Naive%20Bayes.ipynb)
+
 ## Background
 
 Have you ever felt disturbed by spam messages? I'm sure everybody has. Even those who sent the spam messages have. Fortunately there's this thing called spam filter that helps us avoid the hassle of repeatedly cleaning our inbox. The goal of this exercise is to create a basic messaging spam filter using Naive Bayes theorem. Isn't this exciting? It sure is.
@@ -402,7 +403,7 @@ test['predicted'] = test['spam_sms'].apply(classify_test_set)
 ```
 
 {% katex display %}
-\text{Accuracy} = \frac{\text{number of correctly classified messages}}{\text{total number of classifed messages}}
+\small \text{Accuracy} = \frac{\text{number of correctly classified messages}}{\text{total number of classifed messages}}
 {% endkatex %}
 The applied function works as expected. Next we'll do the calculation in the above on the dataset by using this for loop function below that will print the numbers:
 
