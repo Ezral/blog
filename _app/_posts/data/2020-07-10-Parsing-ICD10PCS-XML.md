@@ -123,9 +123,9 @@ for table in pcstable:
 
 ## Conclusion
 
-It took my quite a while to solve this. A colleage from work (to whom I'm very grateful!) gave a thorough explanation which provided a great guidance that allowed me to find the right solution. In the process, I learned about XML file structure, strategies that can be used to parse XML and... tqdm package that allows you to see a progress bar for your long iteration.
+It took my quite a while to solve this. A colleague from work (to whom I'm very grateful!) gave a thorough explanation which provided a great guidance that allowed me to find the right solution. In the process, I learned about XML file structure, strategies that can be used to parse XML and... tqdm package that allows you to see a progress bar for your long iteration.
 
-I didn't use tqdm progress bar in this notebook because the functions are quite fast to run. I used it running a one hour long for loop function when [I was trying to bruteforce all the possible combination](https://nbviewer.jupyter.org/github/Ezral/officedoc/blob/master/Wrongly%20parsing%20ICD-10-PCS%20XML.ipynb) out of the unique code characters from the ICD-10-PCS XML file which has 880 tables and returned the output of 368,462 codes! Definitely the wrong way to do it, but ended up learning a lot from that process as well.
+I didn't use tqdm progress bar in this notebook because the functions are quite fast to run. I used it running a one hour long for loop function when [I was trying to brute force all the possible combination](https://nbviewer.jupyter.org/github/Ezral/officedoc/blob/master/Wrongly%20parsing%20ICD-10-PCS%20XML.ipynb) out of the unique code characters from the ICD-10-PCS XML file which has 880 tables and returned the output of 368,462 codes! Definitely the wrong way to do it, but ended up learning a lot from that process as well.
 
 Overall, I'm happy with the end result and all the take aways that I got from working this project. On to the next!
 
