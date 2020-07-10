@@ -17,8 +17,6 @@ I'll be using etree package in Python to work this project out. And as usual, I'
 > - [Importing the packages](#importing-the-packages)
 > - [Reading the XML file](#reading-the-XML-file)
 > - [Parsing-the-nodes](#parsing-the-nodes)
-> - [Creating dataframe](#creating-dataframe)
-> - [Importing to CSV](#importing-to-CSV)
 > - [Conclusion](#conclusion)
 
 ---
@@ -42,13 +40,11 @@ pd.options.display.max_columns = 500
 
 ## Reading the XML file
 
-
 {% highlight python %}
 # Reading the XML file into a tree
 tree = ET.parse("/icd10pcs_tables_2020.xml")
 root = tree.getroot()
 {% endhighlight %}
-
 
 ---
 
