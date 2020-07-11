@@ -3,6 +3,12 @@ layout: post
 title: "Parsing ICD-10-PCS XML"
 category: data
 tags: [data, pin]
+heading-bg: img/snippet.jpg
+heading-bg-local: true
+# heading-bg-size: "100px 100px"
+# heading-bg-position: "center bottom"
+# heading-bg-repeat: "repeat"
+heading-bg-text: "#1E2127"
 ---
 
 ###### This post is originally written on [this jupyter notebook file](https://nbviewer.jupyter.org/github/Ezral/officedoc/blob/master/Parsing%20ICD-10-PCS%20Table%20XML.ipynb)

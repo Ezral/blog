@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Spam Filter with Naive Bayes"
+title: "Spam Filter with Naive Bayes"
 category: data
 tags: [data, pin]
 scheme-text: "#ABB2BF"

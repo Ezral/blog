@@ -9,11 +9,17 @@ scheme-link: "#ffbdc4"
 scheme-hover: "#77bfa3"
 scheme-code: "#61AFEF"
 scheme-bg: "#fefef5"
+heading-bg: img/gb.jpg
+heading-bg-local: true
+# heading-bg-size: "100px 100px"
+# heading-bg-position: "center bottom"
+# heading-bg-repeat: "repeat"
+heading-bg-text: "#fff"
 ---
 
 If you've never picked up any martial arts and you decided that you want to try one, maybe Brazilian jiu jitsu (BJJ) is for you.
 
-BJJ has been getting a lot more attention as mixed martial art is getting more and more popular on the planet.
+In the recent years, BJJ has been getting a lot more attention as mixed martial art is getting more and more popular on the planet.
 
 Being an art that focuses on ground techniques, BJJ doesn't teach any striking techniques. It's basically a form of grappling discipline that focuses on ground techniques with the intent of submitting or choking the opponent. The philosophy is to allow a person with smaller stature and physique overcome a larger and stronger foe.
 
