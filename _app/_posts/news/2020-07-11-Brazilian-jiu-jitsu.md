@@ -17,7 +17,7 @@ heading-bg-local: true
 heading-bg-text: "#fff"
 ---
 
-If you've never picked up any martial arts and you decided that you want to try one, maybe Brazilian jiu jitsu (BJJ) is for you.
+If you've never picked up any martial arts and you decided that you want to try one, then maybe Brazilian jiu jitsu (BJJ) is for you.
 
 In the recent years, BJJ has been getting a lot more attention as mixed martial art is getting more and more popular on the planet.
 
