@@ -16,7 +16,7 @@ I'll be using etree package in Python to work this project out. And as usual, I'
 ## Content
 > - [Importing the packages](#importing-the-packages)
 > - [Reading the XML file](#reading-the-XML-file)
-> - [Parsing-the-nodes](#parsing-the-nodes)
+> - [Parsing the nodes](#parsing-the-nodes)
 > - [Conclusion](#conclusion)
 
 ---
@@ -52,7 +52,7 @@ root = tree.getroot()
 
 After reading the XML file, there's a consistent pattern for each pcsTable where the first 3 characters of the code will be unique in that table, but the remaining 4 will differ. Depending on the table, there might be more than 1 set of remaining 4 code characters that each will have one or more label under them. The structure is somewhat like this:
 
-{% highlight zsh %}
+{% highlight bash %}
 .
 ├── pcsTable
 │   ├ axis
@@ -119,7 +119,7 @@ for table in pcstable:
 
 ## Conclusion
 
-It took my quite a while to solve this. A colleague from work (to whom I'm very grateful!) gave a thorough explanation which provided a great guidance that allowed me to find the right solution. In the process, I learned about XML file structure, strategies that can be used to parse XML and... tqdm package that allows you to see a progress bar for your long iteration.
+It took me quite a while to solve this. A colleague from work (to whom I'm very grateful!) gave a thorough explanation which provided a great guidance that allowed me to find the right solution. In the process, I learned about XML file structure, strategies that can be used to parse XML and... tqdm package that allows you to see a progress bar for your long iteration.
 
 I didn't use tqdm progress bar in this notebook because the functions are quite fast to run. I used it running a one hour long for loop function when [I was trying to brute force all the possible combination](https://nbviewer.jupyter.org/github/Ezral/officedoc/blob/master/Wrongly%20parsing%20ICD-10-PCS%20XML.ipynb) out of the unique code characters from the ICD-10-PCS XML file which has 880 tables and returned the output of 368,462 codes! Definitely the wrong way to do it, but ended up learning a lot from that process as well.
 
