@@ -31,7 +31,7 @@ Its foundation is not heavily based on strength, speed, physical coordination an
 
 So does this mean anybody can do it? This is [Gracie Barra](https://graciebarra.com/)'s tagline: _Jiu jitsu for everyone_. Gracie Barra is one of the biggest, if not the biggest chain of BJJ school in the world, that offers BJJ teaching to everyone from all ages and all walks of life. It does focus more on sport Jiu jitsu, but for those who are not a competitive athlete it still provides the benefit of a good physical exercise and a slight self-defence experience.
 
-Do I agree with the statement?  I say, everyone should give it a try. Even if there's no intention to compete and the only goal is to get in shape, it'll do the job. A regular session would normally be 1 to 1.5 hour long and consists of warm-ups, technique drill and rolling (or sparring) - this varies depending on the school.
+Do I agree with the statement?  I say, everyone should give it a try. Even if there's no intention to compete and the only goal is to get in shape, it'll do a great job. A regular session would normally be 1 to 1.5 hour long and consists of warm-ups, technique drill and rolling (or sparring) - this varies depending on the school.
 
 Does it really benefit someone who isn't an aspiring BJJ athlete? Yes.
 
