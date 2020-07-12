@@ -11,7 +11,7 @@ heading-bg-local: true
 heading-bg-text: "#1E2127"
 ---
 
-###### This post is originally written on [this jupyter notebook file](https://nbviewer.jupyter.org/github/Ezral/officedoc/blob/master/Parsing%20ICD-10-PCS%20Table%20XML.ipynb)
+###### This post is originally written on [this jupyter notebook file](https://nbviewer.jupyter.org/github/Ezral/officedoc/blob/master/Parsing%20ICD-10-PCS%20table%20XML.ipynb)
 
 ## Background
 
@@ -20,10 +20,10 @@ The goal of this project is to parse ICD-10-PCS XML file into a CSV file that co
 I'll be using etree package in Python to work this project out. And as usual, I'll start with the table of content:
 
 ## Content
-> - [Importing the packages](#importing-the-packages)
-> - [Reading the XML file](#reading-the-XML-file)
-> - [Parsing the nodes](#parsing-the-nodes)
-> - [Conclusion](#conclusion)
+- [Importing the packages](#importing-the-packages)
+- [Reading the XML file](#reading-the-XML-file)
+- [Parsing the nodes](#parsing-the-nodes)
+- [Conclusion](#conclusion)
 
 ---
 

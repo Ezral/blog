@@ -26,16 +26,16 @@ Otherwise, if the $ P(Spam) \cdot \prod_{i=1}^{n}P(w_i|Spam) $ is smaller than t
 Now that we've covered the basics, let's start working~
 
 ## Content
-> - [Background](#background)
-> - [Loading the dataset](#separating-the-dataset)
-> - [Separating the dataset](#separating-the-dataset)
-> - [Cleaning the dataset](#cleaning-the-dataset)
-> - [Creating word count dataset](#creating-word-count-dataset)
-> - [Calculating constants](#calculating-constants)
-> - [Calculating parameters](#calculating-parameters)
-> - [Creating spam filter function](#creating-spam-filter-function)
-> - [Measuring filter accuracy](#measuring-filter-accuracy)
-> - [Conclusion](#conclusion)
+- [Background](#background)
+- [Loading the dataset](#separating-the-dataset)
+- [Separating the dataset](#separating-the-dataset)
+- [Cleaning the dataset](#cleaning-the-dataset)
+- [Creating word count dataset](#creating-word-count-dataset)
+- [Calculating constants](#calculating-constants)
+- [Calculating parameters](#calculating-parameters)
+- [Creating spam filter function](#creating-spam-filter-function)
+- [Measuring filter accuracy](#measuring-filter-accuracy)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -331,7 +331,7 @@ def classify(message):
     print('P(Spam|message):', p_spam_given_message)
     print('P(Ham|message):', p_ham_given_message)
 
-    if p_ham_given_message > p_spam_given_message:
+    if p_ham_given_message p_spam_given_message:
         print('Label: Ham')
     elif p_ham_given_message < p_spam_given_message:
         print('Label: Spam')
@@ -386,7 +386,7 @@ def classify_test_set(message):
     p_spam_given_message = prob(message, parameters_spam, p_spam)
     p_ham_given_message = prob(message, parameters_ham, p_ham)
 
-    if p_ham_given_message > p_spam_given_message:
+    if p_ham_given_message p_spam_given_message:
         return 'ham'
     elif p_ham_given_message < p_spam_given_message:
         return 'spam'

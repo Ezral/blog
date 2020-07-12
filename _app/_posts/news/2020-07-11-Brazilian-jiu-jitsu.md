@@ -36,28 +36,28 @@ Do I agree with the statement?  I say, everyone should give it a try. Even if th
 Does it really benefit someone who isn't an aspiring BJJ athlete? Yes.
 
 To give a picture what the exercise is like, a set of warm-ups can be as the following (done continuously without any rest):
-> - 20 jumping jacks
-> - 20 squats
-> - 20 pushups
-> - 20 arm stretches
-> - 20 lunges
-> - 20 pushups
-> - 20 arm stretches
-> - 20 sprawls
-> - 20 pushups
-> - 20 choke sit-ups
-> - 20 crunches x2
-> - 10 chin to chest
-> - 10 chin to shoulder
-> - 10 ear to shoulder
-> - 20 bridges
-> - 10 bridge to turtle
-> - 10 shift bases
-> - 10 leg crosses
-> - 10 technique stand-ups
-> - 6 fwd rolls
-> - 6 back rolls
-> - 6 shrimping
+- 20 jumping jacks
+- 20 squats
+- 20 pushups
+- 20 arm stretches
+- 20 lunges
+- 20 pushups
+- 20 arm stretches
+- 20 sprawls
+- 20 pushups
+- 20 choke sit-ups
+- 20 crunches x2
+- 10 chin to chest
+- 10 chin to shoulder
+- 10 ear to shoulder
+- 20 bridges
+- 10 bridge to turtle
+- 10 shift bases
+- 10 leg crosses
+- 10 technique stand-ups
+- 6 fwd rolls
+- 6 back rolls
+- 6 shrimping
 
 This, added with the technique drill and the rolls should get anyone in shape if done at a regular interval (of course diet plays a huge part as well).
 
