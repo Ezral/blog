@@ -3,7 +3,7 @@ layout: post
 title: Doctor density per 1,000 population
 category: data
 plugin: lightense
-tags: [data, pin]
+tags: data
 ---
 
 ![doc_proportion](/assets/img/img1.png)
