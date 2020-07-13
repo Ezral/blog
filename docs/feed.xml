@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-07-13T02:10:51+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Coffee: making a cup</title><id>https://ezral.net/Coffee-making-a-cup.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Coffee-making-a-cup.html" /><published>2020-07-13T00:00:00+00:00</published><updated>2020-07-13T02:03:20+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-07-13T02:43:15+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Coffee: making a cup</title><id>https://ezral.net/Coffee-making-a-cup.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Coffee-making-a-cup.html" /><published>2020-07-13T00:00:00+00:00</published><updated>2020-07-13T02:11:37+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;I began proclaiming myself as a coffee snob back in 2015. Like most people, I started with a &lt;a href=&quot;https://ottencoffee.co.id/pour-over/hario-dripper-v60-red-vd-01r&quot;&gt;Hario V60 paper filtered coffee dripper&lt;/a&gt;, a &lt;a href=&quot;https://www.tokopedia.com/mokhabika/maximo-ceramic-burr-coffee-grinder&quot;&gt;manual ceramic burr coffee grinder&lt;/a&gt; and varieties of  single origin coffee beans. However, it took a lot of effort. Way too much effort. I’d spend a good 5 minutes to grind the beans, 2 minutes to prepare all the necessary equipments and another 3 minutes to brew the coffee. Not to mention washing everything afterwards.&lt;/p&gt;
 
@@ -10,13 +10,16 @@
   &lt;li&gt;Fill reusable capsule and tamp lightly&lt;/li&gt;
   &lt;li&gt;Place capsule and pull the lever to brew&lt;/li&gt;
   &lt;li&gt;Let the machine runs until desired level&lt;/li&gt;
+  &lt;li&gt;Rinse and clean the capsule right away after use&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;b style=&quot;color:#50A14F&quot;&gt;The upside&lt;/b&gt;: Even if I get the more expensive beans out there (roughly IDR 150,000 for 250g) I’d only be spending IDR 7,500 for a cup of good coffee. That is almost 80% cheaper than Starbucks. Neat!&lt;/p&gt;
 
 &lt;p&gt;All the money I’m not spending on buying coffee from coffee shops sounds like a very good excuse for getting a &lt;a href=&quot;https://www.tokopedia.com/philocoffee/baratza-encore-coffee-grinder&quot;&gt;Baratza Encore&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;b style=&quot;color:#E45649&quot;&gt;The downside&lt;/b&gt;: The reusable capsule needs to be replaced once it has passed its lifespan. Another thing that needs attention is to make sure that the material of the reusable capsule is food grade and BPA free. But other than that, brewing my daily dose of caffeine using a dolce gusto has been nothing but a very good experience.&lt;/p&gt;
+&lt;p&gt;&lt;b style=&quot;color:#E45649&quot;&gt;The downside&lt;/b&gt;: The reusable capsule needs to be replaced once it has passed its lifespan. Another thing that needs attention is to make sure that the material of the reusable capsule is food grade and BPA free. Or there’s the metal reusable capsule as an alternative.&lt;/p&gt;
+
+&lt;p&gt;This is certainly not the best way to make a &lt;strong&gt;&lt;em&gt;pseudo espresso&lt;/em&gt;&lt;/strong&gt;, but the ease of use and the cup of coffee it yields translate into a very good experience for me.&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;&lt;em&gt;note&lt;/em&gt;: For a good price I’d recommend getting &lt;a href=&quot;https://www.tokopedia.com/northsider&quot;&gt;coffee beans from northsider&lt;/a&gt;.&lt;/sub&gt;&lt;/p&gt;
 
@@ -747,7 +750,7 @@ That was the turning point that led me to ECG self study which involved hours of
           
         
       
-        </content><summary>This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.</summary></entry><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.</summary></entry><entry><title>Doctor density per 1,000 population</title><id>https://ezral.net/doctor-proportion.html</id><link rel="alternate" type="text/html" href="https://ezral.net/doctor-proportion.html" /><published>2020-06-24T00:00:00+00:00</published><updated>2020-07-13T02:11:37+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;&lt;img src=&quot;/assets/img/img1.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
 

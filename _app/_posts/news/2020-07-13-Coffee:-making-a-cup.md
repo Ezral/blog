@@ -21,12 +21,15 @@ For a cup of __*pseudo espresso*__, you only need to:
 - Fill reusable capsule and tamp lightly
 - Place capsule and pull the lever to brew
 - Let the machine runs until desired level
+- Rinse and clean the capsule right away after use
 
 <b style="color:#50A14F">The upside</b>: Even if I get the more expensive beans out there (roughly IDR 150,000 for 250g) I'd only be spending IDR 7,500 for a cup of good coffee. That is almost 80% cheaper than Starbucks. Neat!
 
-All the money I'm not spending on buying coffee from coffee shops sounds like a very good excuse for getting a [Baratza Encore](https://www.tokopedia.com/philocoffee/baratza-encore-coffee-grinder). 
+All the money I'm not spending on buying coffee from coffee shops sounds like a very good excuse for getting a [Baratza Encore](https://www.tokopedia.com/philocoffee/baratza-encore-coffee-grinder).
 
-<b style="color:#E45649">The downside</b>: The reusable capsule needs to be replaced once it has passed its lifespan. Another thing that needs attention is to make sure that the material of the reusable capsule is food grade and BPA free. But other than that, brewing my daily dose of caffeine using a dolce gusto has been nothing but a very good experience.
+<b style="color:#E45649">The downside</b>: The reusable capsule needs to be replaced once it has passed its lifespan. Another thing that needs attention is to make sure that the material of the reusable capsule is food grade and BPA free. Or there's the metal reusable capsule as an alternative.
+
+This is certainly not the best way to make a __*pseudo espresso*__, but the ease of use and the cup of coffee it yields translate into a very good experience for me.
 
 <sub>_note_: For a good price I'd recommend getting [coffee beans from northsider](https://www.tokopedia.com/northsider).</sub>
 
