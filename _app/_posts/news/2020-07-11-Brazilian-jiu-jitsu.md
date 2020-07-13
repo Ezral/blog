@@ -3,12 +3,6 @@ layout: post
 title: Picking up Brazilian jiu jitsu
 category: news
 tags: [misc, pin]
-# Scheme for medical and misc pages
-scheme-text: "#1d4e89"
-scheme-link: "#ffbdc4"
-scheme-hover: "#77bfa3"
-scheme-code: "#61AFEF"
-scheme-bg: "#fefef5"
 heading-bg: img/gb.jpg
 heading-bg-local: true
 # heading-bg-size: "100px 100px"
