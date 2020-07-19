@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Air Medical Evacuation
-category: news
+category: life
 tags: misc
 # Scheme for medical and misc pages
 scheme-text: "#1d4e89"

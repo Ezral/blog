@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Coffee: making a cup"
-category: news
+category: life
 tags: [misc, pin]
 # Scheme for medical and misc pages
 heading-bg: img/coffee.jpg

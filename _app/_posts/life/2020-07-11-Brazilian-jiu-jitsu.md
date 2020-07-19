@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Picking up Brazilian jiu jitsu
-category: news
+category: life
 tags: [misc, pin]
 heading-bg: img/gb.jpg
 heading-bg-local: true

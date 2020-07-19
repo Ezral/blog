@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Displaying math formula on ASMF
-category: news
+category: life
 tags: comp
 # Scheme for comp pages
 scheme-text: "#ABB2BF"

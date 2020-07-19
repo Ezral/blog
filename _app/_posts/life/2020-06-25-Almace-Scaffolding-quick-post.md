@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Almace Scaffolding Quick Post
-category: news
+category: life
 tags: comp
 # Scheme for about and comp pages
 scheme-text: "#ABB2BF"

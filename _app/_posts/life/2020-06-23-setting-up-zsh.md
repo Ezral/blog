@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up ZSH
-category: news
+category: life
 tags: comp
 # Scheme for about and comp pages
 scheme-text: "#ABB2BF"
