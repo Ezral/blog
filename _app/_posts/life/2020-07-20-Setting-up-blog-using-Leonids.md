@@ -12,7 +12,7 @@ scheme-bg: "#1E2127"
 ---
 
 Setting up blogs using Jekyll is great!
-This the steps I used to setup a Jekyll blog using a theme called [Leonids](https://github.com/renyuanz/leonids/) that's pretty sleek:
+These are the steps that I used to setup a Jekyll blog using a theme called [Leonids](https://github.com/renyuanz/leonids/) that's pretty sleek:
 
 #### Clone the repo
 {% highlight zsh %}
@@ -36,6 +36,7 @@ http://127.0.0.1:4000
 {% endhighlight %}
 
 Once it's running, you can begin to edit the content.
+
 Happy blogging!
 
 ---

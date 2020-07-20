@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-07-20T13:37:35+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Setting up blog using Leonids</title><id>https://ezral.net/Setting-up-blog-using-Leonids.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Setting-up-blog-using-Leonids.html" /><published>2020-07-20T00:00:00+00:00</published><updated>2020-07-20T13:36:44+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-07-20T13:42:58+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Setting up blog using Leonids</title><id>https://ezral.net/Setting-up-blog-using-Leonids.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Setting-up-blog-using-Leonids.html" /><published>2020-07-20T00:00:00+00:00</published><updated>2020-07-20T13:36:44+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Setting up blogs using Jekyll is great!
-This the steps I used to setup a Jekyll blog using a theme called &lt;a href=&quot;https://github.com/renyuanz/leonids/&quot;&gt;Leonids&lt;/a&gt; that’s pretty sleek:&lt;/p&gt;
+These are the steps that I used to setup a Jekyll blog using a theme called &lt;a href=&quot;https://github.com/renyuanz/leonids/&quot;&gt;Leonids&lt;/a&gt; that’s pretty sleek:&lt;/p&gt;
 
 &lt;h4 id=&quot;clone-the-repo&quot;&gt;Clone the repo&lt;/h4&gt;
 
@@ -20,8 +20,9 @@ This the steps I used to setup a Jekyll blog using a theme called &lt;a href=&qu
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-zsh&quot; data-lang=&quot;zsh&quot;&gt;http://127.0.0.1:4000&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Once it’s running, you can begin to edit the content.
-Happy blogging!&lt;/p&gt;
+&lt;p&gt;Once it’s running, you can begin to edit the content.&lt;/p&gt;
+
+&lt;p&gt;Happy blogging!&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -30,7 +31,7 @@ Happy blogging!&lt;/p&gt;
           
         
       
-        </content><summary>Setting up blogs using Jekyll is great!This the steps I used to setup a Jekyll blog using a theme called Leonids that’s pretty sleek:</summary></entry><entry><title>Framingham risk score</title><id>https://ezral.net/Framingham-risk-score.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Framingham-risk-score.html" /><published>2020-07-19T00:00:00+00:00</published><updated>2020-07-19T10:42:42+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>Setting up blogs using Jekyll is great!These are the steps that I used to setup a Jekyll blog using a theme called Leonids that’s pretty sleek:</summary></entry><entry><title>Framingham risk score</title><id>https://ezral.net/Framingham-risk-score.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Framingham-risk-score.html" /><published>2020-07-19T00:00:00+00:00</published><updated>2020-07-19T10:42:42+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;I wrote a function in Python that calculates &lt;a href=&quot;https://www.framinghamheartstudy.org/fhs-risk-functions/hard-coronary-heart-disease-10-year-risk/&quot;&gt;Framingham risk score for hard coronary heart disease&lt;/a&gt; based on the equation provided in &lt;a href=&quot;https://www.mdcalc.com/framingham-risk-score-hard-coronary-heart-disease#evidence&quot;&gt;mdcalc’s online calculator&lt;/a&gt;.&lt;/p&gt;
 
