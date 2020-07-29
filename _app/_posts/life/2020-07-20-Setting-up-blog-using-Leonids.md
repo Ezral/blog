@@ -14,7 +14,7 @@ scheme-bg: "#1E2127"
 Setting up blogs using Jekyll is great!
 This is how you can set up a jekyll blog using [duo](https://github.com/chibicode/duo) template created by [chibicode](https://github.com/chibicode)
 
-I've forked the repo and made some minor changes. If you want to use the one with that I've modified, clone this repo:
+I've forked the repo and made some minor changes. If you want to use the one that I've modified, clone this repo:
 
 {% highlight zsh %}
 $ git clone git@github.com:Ezral/duo.git
