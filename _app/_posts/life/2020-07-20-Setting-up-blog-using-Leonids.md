@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up blog using Leonids
+title: Setting up blog using Duo
 category: life
 tags: comp
 # Scheme for comp pages
@@ -12,30 +12,28 @@ scheme-bg: "#1E2127"
 ---
 
 Setting up blogs using Jekyll is great!
-These are the steps that I used to setup a Jekyll blog using a theme called [Leonids](https://github.com/renyuanz/leonids/) that's pretty sleek:
+This is how you can set up a jekyll blog using [duo](https://github.com/chibicode/duo) template created by [chibicode](https://github.com/chibicode)
 
-#### Clone the repo
-{% highlight zsh %}
-$ git clone https://github.com/renyuanz/leonids
-{% endhighlight %}
+I've forked the repo and made some minor changes. If you want to use the one with that I've modified, clone this repo:
 
-#### Go to the folder and bundle install
 {% highlight zsh %}
-$ cd leonids
+$ git clone git@github.com:Ezral/duo.git
+{% end highlight %}
+
+And then, to start everything, simply:
+
+{% highlight zsh %}
 $ bundle install
-{% endhighlight %}
-
-#### Run it locally
-{% highlight zsh %}
 $ bundle exec jekyll serve
-{% endhighlight %}
+{% end highlight %}
 
-#### View it on your browser at this address
+Once you've made all the necessary adjustment locally, change your git repo's ```origin``` before pushing:
+
 {% highlight zsh %}
-http://127.0.0.1:4000
-{% endhighlight %}
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+{% end highlight %}
 
-Once it's running, you can begin to edit the content.
+After that, commit and push the changes that you've made and let github render your blog for you.
 
 Happy blogging!
 
