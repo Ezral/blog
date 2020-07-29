@@ -18,20 +18,20 @@ I've forked the repo and made some minor changes. If you want to use the one wit
 
 {% highlight zsh %}
 $ git clone git@github.com:Ezral/duo.git
-{% end highlight %}
+{% endhighlight %}
 
 And then, to start everything, simply:
 
 {% highlight zsh %}
 $ bundle install
 $ bundle exec jekyll serve
-{% end highlight %}
+{% endhighlight %}
 
 Once you've made all the necessary adjustment locally, change your git repo's ```origin``` before pushing:
 
 {% highlight zsh %}
 $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-{% end highlight %}
+{% endhighlight %}
 
 After that, commit and push the changes that you've made and let github render your blog for you.
 
