@@ -20,6 +20,10 @@
     overflow-wrap: break-word;
   }
 
+  .highlight > pre, .highlighter-rouge pre.highlight {
+    background: hsla(332, 95%, 70%, 0.08);
+}
+
 // }
 
 // EXAMPLE: alternative post title color
