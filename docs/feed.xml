@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-07-30T09:58:48+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Setting up blog using Duo</title><id>https://ezral.net/Setting-up-blog-using-Leonids.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Setting-up-blog-using-Leonids.html" /><published>2020-07-20T00:00:00+00:00</published><updated>2020-07-29T19:31:33+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-07-30T14:42:23+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Setting up blog using Duo</title><id>https://ezral.net/Setting-up-blog-using-Leonids.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Setting-up-blog-using-Leonids.html" /><published>2020-07-20T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Setting up blogs using Jekyll is great!
 This is how you can set up a jekyll blog using &lt;a href=&quot;https://github.com/chibicode/duo&quot;&gt;duo&lt;/a&gt; template created by &lt;a href=&quot;https://github.com/chibicode&quot;&gt;chibicode&lt;/a&gt;&lt;/p&gt;
@@ -114,20 +114,58 @@ This is how you can set up a jekyll blog using &lt;a href=&quot;https://github.c
 79
 80
 81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calc_frs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Calculate in percentage, the probability of
+    having hard coronary vascular disease in 10 years.
+
+    Args:
+        X (np.array): Numpy array consisting number representation
+        of age, sex,smoking, tot_cholesterol, hdl_cholesterol,
+        sys_bp, bp_treatment variables.
+        B (np.array): Numpy array consisting coefficients for
+        each variables.
+        N (float): Survival rate
+        cons (int): Constant
+
+    Returns:
+        Framingham score: probability of having hard coronary
+        vascular disease in 10 years.
+    &quot;&quot;&quot;&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;frs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;'''Takes list of integers with
-    len of 7 as an input where
-    x[0] = age
-    x[1] = sex
-    x[2] = smoker
-    x[3] = tot_cholesterol
-    x[4] = hdl_cholesterol
-    x[5] = sys_bp
-    x[6] = bp_treatment'''&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Calculate in percentage, the probability of
+    having hard coronary vascular disease in 10 years.
+
+    Args:
+        x (list): List of integers with len of 7 as an input where
+        x[0] = age, x[1] = sex, x[2] = smoker, x[3] = tot_cholesterol,
+        x[4] = hdl_cholesterol, x[5] = sys_bp, x[6] = bp_treatment.
+
+    Returns:
+        Framingham score: probability of having hard coronary
+        vascular disease in 10 years.
+    &quot;&quot;&quot;&lt;/span&gt;
 
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
         &lt;span class=&quot;c1&quot;&gt;# [age,tot_cholesterol,hdl_cholesterol,sys_bp,bp_treatment,smoker,age * tot_cholesterol,age*smoker,age**2]
@@ -204,7 +242,7 @@ This is how you can set up a jekyll blog using &lt;a href=&quot;https://github.c
           
         
       
-        </content><summary>I wrote a function in Python that calculates Framingham risk score for hard coronary heart disease based on the equation provided in mdcalc’s online calculator.</summary></entry><entry><title>Percentile of score</title><id>https://ezral.net/Percentile-of-score.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Percentile-of-score.html" /><published>2020-07-15T00:00:00+00:00</published><updated>2020-07-15T14:22:33+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>I wrote a function in Python that calculates Framingham risk score for hard coronary heart disease based on the equation provided in mdcalc’s online calculator.</summary></entry><entry><title>Percentile of score</title><id>https://ezral.net/Percentile-of-score.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Percentile-of-score.html" /><published>2020-07-15T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Earlier at work I was trying to figure out how to do in Python what &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ntile()&lt;/code&gt; in R does.
 After a googling session, I discovered &lt;a href=&quot;https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.percentileofscore.html&quot;&gt;scipy.stat.percentileofscore&lt;/a&gt; from scipy library that does just exactly what I was looking for.&lt;/p&gt;
@@ -467,7 +505,7 @@ After a googling session, I discovered &lt;a href=&quot;https://docs.scipy.org/d
           
         
       
-        </content><summary>This post is originally written on this jupyter notebook file</summary></entry><entry><title>Spam Filter with Naive Bayes</title><id>https://ezral.net/Dataquest-guided-project-3.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Dataquest-guided-project-3.html" /><published>2020-07-06T00:00:00+00:00</published><updated>2020-07-12T06:56:28+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>This post is originally written on this jupyter notebook file</summary></entry><entry><title>Spam Filter with Naive Bayes</title><id>https://ezral.net/Dataquest-guided-project-3.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Dataquest-guided-project-3.html" /><published>2020-07-06T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;h6 id=&quot;this-is-a-dataquest-guided-project-originally-written-on-this-jupyter-notebook-file&quot;&gt;This is a &lt;a href=&quot;https://app.dataquest.io/m/433/guided-project%3A-building-a-spam-filter-with-naive-bayes&quot;&gt;Dataquest guided project&lt;/a&gt; originally written on &lt;a href=&quot;https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Building%20a%20Spam%20Filter%20with%20Naive%20Bayes.ipynb&quot;&gt;this jupyter notebook file&lt;/a&gt;&lt;/h6&gt;
 
@@ -869,7 +907,7 @@ The applied function works as expected. Next we’ll do the calculation in the a
           
         
       
-        </content><summary>This is a Dataquest guided project originally written on this jupyter notebook file</summary></entry><entry><title>Displaying math formula on ASMF</title><id>https://ezral.net/Displaying-math-formula-on-ASMF.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Displaying-math-formula-on-ASMF.html" /><published>2020-06-30T00:00:00+00:00</published><updated>2020-07-19T15:58:39+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>This is a Dataquest guided project originally written on this jupyter notebook file</summary></entry><entry><title>Displaying math formula on ASMF</title><id>https://ezral.net/Displaying-math-formula-on-ASMF.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Displaying-math-formula-on-ASMF.html" /><published>2020-06-30T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;This is a short post on how to set up KaTex plugin to render TeX on Almace Scaffolding, mostly taken from &lt;a href=&quot;https://github.com/linjer/jekyll-katex&quot;&gt;Jekyll-Katex&lt;/a&gt; github page.&lt;/p&gt;
 &lt;ol&gt;
@@ -971,7 +1009,7 @@ That was the turning point that led me to ECG self study which involved hours of
           
         
       
-        </content><summary></summary></entry><entry><title>Almace Scaffolding Quick Post</title><id>https://ezral.net/Almace-Scaffolding-quick-post.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Almace-Scaffolding-quick-post.html" /><published>2020-06-25T00:00:00+00:00</published><updated>2020-07-19T15:58:39+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary></summary></entry><entry><title>Almace Scaffolding Quick Post</title><id>https://ezral.net/Almace-Scaffolding-quick-post.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Almace-Scaffolding-quick-post.html" /><published>2020-06-25T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.&lt;/p&gt;
 
@@ -1038,7 +1076,7 @@ I figure I’d keep one of the first Dataquest guided projects that I completed 
           
         
       
-        </content><summary>From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on Dataquest. Little did I know that I was going to like it this much.I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about Star Wars movie survey.</summary></entry><entry><title>Setting up ZSH</title><id>https://ezral.net/setting-up-zsh.html</id><link rel="alternate" type="text/html" href="https://ezral.net/setting-up-zsh.html" /><published>2020-06-23T00:00:00+00:00</published><updated>2020-07-30T09:40:27+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on Dataquest. Little did I know that I was going to like it this much.I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about Star Wars movie survey.</summary></entry><entry><title>Setting up ZSH</title><id>https://ezral.net/setting-up-zsh.html</id><link rel="alternate" type="text/html" href="https://ezral.net/setting-up-zsh.html" /><published>2020-06-23T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick search on the web.&lt;/p&gt;
 
@@ -1182,7 +1220,7 @@ Background:     1E2127        Background:     F9F9F9&lt;/code&gt;&lt;/pre&gt;&lt
           
         
       
-        </content><summary>MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick search on the web.</summary></entry><entry><title>Air Medical Evacuation</title><id>https://ezral.net/air-medical-evacuation.html</id><link rel="alternate" type="text/html" href="https://ezral.net/air-medical-evacuation.html" /><published>2020-06-22T00:00:00+00:00</published><updated>2020-07-19T15:58:39+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>MacOSX Catalina 15.5 update changed the Terminal emulator default shell from bash to zsh and I figure it’s the right time to get to know zsh. Here’s how I setup my zsh after doing a quick search on the web.</summary></entry><entry><title>Air Medical Evacuation</title><id>https://ezral.net/air-medical-evacuation.html</id><link rel="alternate" type="text/html" href="https://ezral.net/air-medical-evacuation.html" /><published>2020-06-22T00:00:00+00:00</published><updated>2020-07-30T09:59:21+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;Although the term &lt;strong&gt;air medical evacuation&lt;/strong&gt; covers many things¹, it’s most commonly known in Indonesia as air ambulance evacuation using privately chartered airplane with a special configuration. If you’re fortunate enough, you’d have enough fortune to spend to fly you to a center of medical excellence using this option.&lt;/p&gt;
 

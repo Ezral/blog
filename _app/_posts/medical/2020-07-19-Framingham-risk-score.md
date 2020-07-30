@@ -11,19 +11,38 @@ I wrote a function in Python that calculates [Framingham risk score for hard cor
 
 {% highlight python linenos %}
 def calc_frs(X,B,N,cons):
+    """Calculate in percentage, the probability of
+    having hard coronary vascular disease in 10 years.
+
+    Args:
+        X (np.array): Numpy array consisting number representation
+        of age, sex,smoking, tot_cholesterol, hdl_cholesterol,
+        sys_bp, bp_treatment variables.
+        B (np.array): Numpy array consisting coefficients for
+        each variables.
+        N (float): Survival rate
+        cons (int): Constant
+
+    Returns:
+        Framingham score: probability of having hard coronary
+        vascular disease in 10 years.
+    """
     result = 1 - N**np.exp(np.dot(X,B) - cons)
     return result
 
 def frs(x):
-    '''Takes list of integers with
-    len of 7 as an input where
-    x[0] = age
-    x[1] = sex
-    x[2] = smoker
-    x[3] = tot_cholesterol
-    x[4] = hdl_cholesterol
-    x[5] = sys_bp
-    x[6] = bp_treatment'''
+    """Calculate in percentage, the probability of
+    having hard coronary vascular disease in 10 years.
+
+    Args:
+        x (list): List of integers with len of 7 as an input where
+        x[0] = age, x[1] = sex, x[2] = smoker, x[3] = tot_cholesterol,
+        x[4] = hdl_cholesterol, x[5] = sys_bp, x[6] = bp_treatment.
+
+    Returns:
+        Framingham score: probability of having hard coronary
+        vascular disease in 10 years.
+    """
 
     if x[0] >= 30:
         # [age,tot_cholesterol,hdl_cholesterol,sys_bp,bp_treatment,smoker,age * tot_cholesterol,age*smoker,age**2]
