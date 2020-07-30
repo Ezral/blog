@@ -9,7 +9,7 @@ I wrote a function in Python that calculates [Framingham risk score for hard cor
 
 [Fonnesbeck](https://github.com/fonnesbeck)'s repository on [framingham_risk](https://github.com/fonnesbeck/framingham_risk)  was huge help!
 
-{% highlight python %}
+{% highlight python linenos %}
 def calc_frs(X,B,N,cons):
     result = 1 - N**np.exp(np.dot(X,B) - cons)
     return result
