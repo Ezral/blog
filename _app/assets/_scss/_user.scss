@@ -18,10 +18,19 @@
   .content code {
     font-size: 90%;
     overflow-wrap: break-word;
+    font-family: 'Fira Code', monospace;
+  }
+
+  .language-plaintext {
+    background: hsla(149, 95%, 70%, 0.05);
   }
 
   .highlight > pre, .highlighter-rouge pre.highlight {
-    background: hsla(332, 95%, 70%, 0.08);
+    background: hsla(149, 95%, 70%, 0.05);
+}
+
+  .highlight .n, .highlighter-rouge .n {
+    color: hsla(349, 95%, 70%, 1);
 }
 
 // }

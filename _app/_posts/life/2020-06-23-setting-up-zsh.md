@@ -122,7 +122,7 @@ To activate or deactivate your conda environment use the command ```conda activa
 
 For color, I follow [atom one dark color](https://github.com/nathanbuchar/atom-one-dark-terminal/blob/master/COLORS) theme which I applied manually on my terminal preference. Here are the hex colors for both _One Dark_ and _One Light_ theme:
 
-```
+{% highlight txt %}
 One Dark                       One Light
 
 Black:          1E2127        Black:          000000
@@ -146,7 +146,7 @@ Bold Text:      ABB2BF        Bold Text:      A0A1A7
 Selection:      3A3F4B        Selection:      3A3F4B
 Cursor:         5C6370        Cursor:         383A42
 Background:     1E2127        Background:     F9F9F9
-```
+{% endhighlight %}
 
 The background color I used also follows the One Dark black color which hex is ```1E2127```. You can change it to ```FEFDF9``` or ```FEF4EB``` if you want a peach colored background.
 

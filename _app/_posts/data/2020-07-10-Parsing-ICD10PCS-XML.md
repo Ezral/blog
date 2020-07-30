@@ -15,9 +15,9 @@ heading-bg-text: "#1E2127"
 
 ## Background
 
-The goal of this project is to parse ICD-10-PCS XML file into a CSV file that contains 2 columns, the 7 character code and the title (or medical name) with "@" separating each level title. For this project I'll be using ICD-10-PCS 2020 which XML file [can be downloaded from CMS.gov](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2020-ICD-10-PCS-Code-Tables.zip).
+The goal of this project is to parse ICD-10-PCS XML file into a CSV file that contains 2 columns, the 7 character code and the title (or medical name) with ```"@"``` separating each level title. For this project I'll be using ICD-10-PCS 2020 which XML file [can be downloaded from CMS.gov](https://www.cms.gov/Medicare/Coding/ICD10/Downloads/2020-ICD-10-PCS-Code-Tables.zip).
 
-I'll be using etree package in Python to work this project out. And as usual, I'll start with the table of content:
+I'll be using ```etree``` package in Python to work this project out. And as usual, I'll start with the table of content:
 
 ## Content
 - [Importing the packages](#importing-the-packages)
