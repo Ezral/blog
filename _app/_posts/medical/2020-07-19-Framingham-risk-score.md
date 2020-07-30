@@ -10,6 +10,8 @@ I wrote a function in Python that calculates [Framingham risk score for hard cor
 [Fonnesbeck](https://github.com/fonnesbeck)'s repository on [framingham_risk](https://github.com/fonnesbeck/framingham_risk)  was huge help!
 
 {% highlight python linenos %}
+import numpy as np
+
 def calc_frs(X,B,N,cons):
     """Calculate in percentage, the probability of
     having hard coronary vascular disease in 10 years.
