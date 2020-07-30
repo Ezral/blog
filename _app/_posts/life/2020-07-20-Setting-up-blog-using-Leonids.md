@@ -3,12 +3,6 @@ layout: post
 title: Setting up blog using Duo
 category: life
 tags: comp
-# Scheme for comp pages
-scheme-text: "#ABB2BF"
-scheme-link: "#E06C75"
-scheme-hover: "#E45649"
-scheme-code: "#61AFEF"
-scheme-bg: "#1E2127"
 ---
 
 Setting up blogs using Jekyll is great!

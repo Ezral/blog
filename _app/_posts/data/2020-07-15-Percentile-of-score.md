@@ -3,11 +3,6 @@ layout: post
 title: Percentile of score
 category: data
 tags: [data, pin]
-scheme-text: "#ABB2BF"
-scheme-link: "#E06C75"
-scheme-hover: "#E45649"
-scheme-code: "#61AFEF"
-scheme-bg: "#1E2127"
 ---
 
 Earlier at work I was trying to figure out how to do in Python what ```ntile()``` in R does.

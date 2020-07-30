@@ -4,11 +4,6 @@ title: Air Medical Evacuation
 category: life
 tags: misc
 # Scheme for medical and misc pages
-scheme-text: "#1d4e89"
-scheme-link: "#ffbdc4"
-scheme-hover: "#77bfa3"
-scheme-code: "#61AFEF"
-scheme-bg: "#fefef5"
 ---
 Although the term __air medical evacuation__ covers many things¹, it's most commonly known in Indonesia as air ambulance evacuation using privately chartered airplane with a special configuration. If you’re fortunate enough, you’d have enough fortune to spend to fly you to a center of medical excellence using this option.
 

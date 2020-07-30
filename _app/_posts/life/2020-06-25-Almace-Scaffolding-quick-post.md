@@ -3,12 +3,6 @@ layout: post
 title: Almace Scaffolding Quick Post
 category: life
 tags: comp
-# Scheme for about and comp pages
-scheme-text: "#ABB2BF"
-scheme-link: "#E06C75"
-scheme-hover: "#E45649"
-scheme-code: "#61AFEF"
-scheme-bg: "#1E2127"
 ---
 
 This is a snippet I use to quickly create a post draft for Almace Scaffolding from command line.

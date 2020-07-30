@@ -3,12 +3,6 @@ layout: post
 title: Displaying math formula on ASMF
 category: life
 tags: comp
-# Scheme for comp pages
-scheme-text: "#ABB2BF"
-scheme-link: "#E06C75"
-scheme-hover: "#E45649"
-scheme-code: "#61AFEF"
-scheme-bg: "#1E2127"
 ---
 
 This is a short post on how to set up KaTex plugin to render TeX on Almace Scaffolding, mostly taken from [Jekyll-Katex](https://github.com/linjer/jekyll-katex) github page.

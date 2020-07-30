@@ -3,11 +3,6 @@ layout: post
 title: "Spam Filter with Naive Bayes"
 category: data
 tags: [data, pin]
-scheme-text: "#ABB2BF"
-scheme-link: "#E06C75"
-scheme-hover: "#E45649"
-scheme-code: "#61AFEF"
-scheme-bg: "#1E2127"
 ---
 
 ###### This is a [Dataquest guided project](https://app.dataquest.io/m/433/guided-project%3A-building-a-spam-filter-with-naive-bayes) originally written on [this jupyter notebook file](https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Building%20a%20Spam%20Filter%20with%20Naive%20Bayes.ipynb)
