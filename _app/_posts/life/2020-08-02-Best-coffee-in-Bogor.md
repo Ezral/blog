@@ -39,8 +39,6 @@ The space are divided into 4 separate sections:
 
 ![](/assets/img/cohere02.jpg){: .size-small}
 
-And yes they offer public wi-fi.
-
 ### The Menu
 
 Once you step into the counter area, you'll be able to see the pastries they have on display along with the menu. All food and drinks are halal.
@@ -69,7 +67,7 @@ Price wise, it's slightly above your average coffee place in Bogor, but worth ev
 For payment they accept: cash, OVO, go-pay and BCA debit card.
 They are not able to accept credit card or debit card other than BCA yet (confirmation required).
 
-Another important fact, the toilet is squeaky clean.
+Another important facts, the toilet is squeaky clean and they offer public wi-fi.
 
 <b style="color:#50A14F">Side-note</b>: If you ever happen to meet one of the co-founders, Sumi, have a chat.
 You should go ahead and ask for his recommendation or maybe just talk about coffee.
