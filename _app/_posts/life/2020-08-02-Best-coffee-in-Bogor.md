@@ -48,7 +48,7 @@ My usual, is either a [piccolo latte](https://www.cafeculture.com/industry/gener
 Can't go wrong with espresso.
 
 For their coffee beans, Cohere uses its own house blend which is 100% arabica, as they don't provide anything but specialty coffee.
-Their latest addition to the menu, es kopi susu in 1L bottle to cater for the growing demand of home es kopi susu stock.
+Their latest addition to the menu, es kopi susu in 1L bottle is now catering for the growing demand of home es kopi susu stock.
 
 For foods, they have a wide selection of appetiser/snack, mains and desserts.
 [Cohere's page in zomato](https://www.zomato.com/jakarta/cohere-bogor-timur-bogor) has all the details.
