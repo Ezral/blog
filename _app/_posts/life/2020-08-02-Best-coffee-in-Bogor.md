@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best coffee shop<br> in Bogor"
+title: "Bogor's best coffee shop"
 category: life
 heading-bg: img/cohere03.jpg
 heading-bg-text: "#ffd6ef"
