@@ -41,7 +41,7 @@ And yes they offer public wi-fi.
 
 Once you step into the counter area, you'll be able to see the pastries they have on display along with the menu. All food and drinks are halal.
 
-They offer the common espresso based as well as non-coffee drinks which includes juice.
+They offer the common espresso based as well as non-coffee drinks which includes selection of healthy smoothies.
 My usual, is either a [piccolo latte](https://www.cafeculture.com/industry/general-interest/what-is-a-piccolo-latte), es kopi susu (iced coffee with milk), or a cup of [espresso](https://en.wikipedia.org/wiki/Espresso).
 Can't go wrong with espresso.
 
