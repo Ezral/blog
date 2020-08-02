@@ -19,7 +19,7 @@ Opened in 2017, Cohere was founded by a group of Indonesians who used to live in
 
 Before becoming a coffee shop, the building that is now Cohere used to be a big house that has a large garden.
 A huge portion of the structure was later converted into a karaoke place and a smaller part of it became this awesome coffee shop.
-They also have a big parking space that can fit (maybe around) 25 cars that makes finding a parking spot very easy.
+They also have a big parking space that can accommodate around 20++ cars.
 
 Once you step in, you'll notice the huge windows filling the room with natural light throughout the day and that the whole space
 is visible starting all the way to the back. Making you appreciate how spacious it is.
