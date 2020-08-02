@@ -69,8 +69,8 @@ They are not able to accept credit card or debit card other than BCA yet (confir
 
 Another important facts, the toilet is squeaky clean and they offer public wi-fi.
 
-<b style="color:#50A14F">Side-note</b>: If you ever happen to meet one of the co-founders, Sumi, have a chat.
-You should go ahead and ask for his recommendation or maybe just talk about coffee.
+<b style="color:#50A14F">Side-note</b>: If you ever happen to meet Sumi, one of the co-founders, have a chat.
+You should go ahead and ask for his food or drink recommendation or maybe just talk about coffee.
 Great guy to talk to.
 
 ### The crowd
