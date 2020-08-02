@@ -57,7 +57,7 @@ If you ask me, I particularly like the pink carbonara and the brownies with ice 
 
 Cohere opens everyday from 8.00AM - 9.30PM.
 
-The staffs are very friendly and definitely know what they're doing.
+The staffs are very friendly and know what they're doing.
 The order doesn't take long; it normally takes around 5 - 10 minutes for drinks and 15 - 20 minutes for food.
 And if you need to, you can keep the bill open. Which is convenient!
 
@@ -67,7 +67,7 @@ For payment I think they accept the following: cash, OVO, go-pay and BCA debit c
 They are not able to accept credit card or debit card other than BCA yet (confirmation required).
 
 <b style="color:#50A14F">Side-note</b>: If you ever happen to meet one of the co-founders, Sumi, have a chat.
-You should definitely ask for his recommendation or maybe just talk about coffee.
+You should go ahead and ask for his recommendation or maybe just talk about coffee.
 Great guy to talk to.
 
 ### The crowd
@@ -82,11 +82,14 @@ Cohere has re-open for dine-in with physical distancing measures. Reservation is
 
 ### Must visit?
 
-Yes! 10 out if 10 times, I recommended Cohere to people visiting Bogor whenever they asked for my recommendation.
+Yes! I really like the homey feel that it offers. I can't say I've tried every dish on the menu, but the ones I did eat definitely did not disappoint.
+As for the coffee, they consistently serve really good quality coffee.
+
+10 out if 10 times, I recommended Cohere to people visiting Bogor whenever they asked for my recommendation.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3331457576564!2d106.81021931466412!3d-6.605459395223172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5de710a1311%3A0x7bb49088d326fd02!2sCohere!5e0!3m2!1sen!2sid!4v1596386386914!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>{: .size-small}
 
 It's a great spot to add to your destination list when in Bogor. Either to just hang out or to wait the traffic out before driving back to Jakarta.
-Definitely give it a shot when you're in Bogor. <sub>(Or if you're living in Bogor but have never been to Cohere before)</sub>
+Give it a shot when you're in Bogor. <sub>(Or if you're living in Bogor but have never been to Cohere before)</sub>
 
 ---
