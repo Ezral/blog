@@ -17,17 +17,15 @@ This coffee shop is one of best coffee places, if not the best, in Bogor.
 
 Opened in 2017, Cohere was founded by a group of Indonesian who used to live in Brisbane that share the same passion for coffee.
 
-The structure is formerly a huge old house that has a large garden.
-It was later converted into the a karaoke spot that takes most of the space and the rest into this awesome coffee shop.
-Because of this, they have a big parking space. I've never any issue in finding parking space as it can fit (maybe around) 25 cars.
-So unless both Cohere and the karaoke spot are full, I wouldn't worry about parking.
+Before becoming a coffee shop, the building that is now Cohere used to be a big house that has a large garden.
+A huge portion of the structure was later converted into a karaoke place and the part of it became this awesome coffee shop.
+They also have a big parking space that can fit (maybe around) 25 cars that makes finding a parking spot very easy.
 
-Once you step in, you can see everything all the way from the front to the back, making you appreciate how spacious it is.
+Once you step in, you'll notice two things. One, huge windows filling the room with natural light throughout the day and two,
+you can see everything all the way from the front to the back, making you appreciate how spacious it is.
+The combination of cement floor, white walls, wooden furnitures, and the touch of greens from the indoor plants give off a warm homey feeling.
 
 ![](/assets/img/cohere04.jpg){: .size-small}
-
-The huge windows provides natural light throughout the day and the combination of white walls, wooden furnitures,
-cement floor and a touch of greens from the indoor plants set the right ambience.
 
 The space are divided into 4 separate sections:
 - The area over the main entrance that resembles a living room
@@ -43,11 +41,12 @@ And yes they offer public wi-fi.
 
 Once you step into the counter area, you'll be able to see the pastries they have on display along with the menu. All food and drinks are halal.
 
-They offer the common espresso based as well as non-coffee drinks which includes juice. My usual, is either picollo, es kopi susu (iced coffee with milk), or a cup of espresso.
+They offer the common espresso based as well as non-coffee drinks which includes juice.
+My usual, is either picollo, es kopi susu (iced coffee with milk), or a cup of espresso.
 Can't go wrong with espresso.
 
 For their coffee beans, Cohere uses its own house blend which is 100% arabica, as they don't provide anything but specialty coffee.
-And as a newest addition to their menu, they added es kopi susu in 1L bottle to cater for the growing demand of es kopi susu stock at home.
+Their latest addition to the menu, es kopi susu in 1L bottle to cater for the growing demand of home es kopi susu stock.
 
 For foods, they have a wide selection of appetiser/snack, mains and desserts.
 [Cohere's page in zomato](https://www.zomato.com/jakarta/cohere-bogor-timur-bogor) has all the details.
@@ -63,7 +62,7 @@ And if you need to, you can keep the bill open. Which is convenient!
 
 Price wise, it's slightly above your average coffee place in Bogor, but worth every penny. <sub> (in this case, worth every perak)</sub>
 
-For payment I think they accept the following: cash, OVO, go-pay and BCA debit card.
+For payment they accept: cash, OVO, go-pay and BCA debit card.
 They are not able to accept credit card or debit card other than BCA yet (confirmation required).
 
 <b style="color:#50A14F">Side-note</b>: If you ever happen to meet one of the co-founders, Sumi, have a chat.
