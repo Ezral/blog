@@ -18,7 +18,7 @@ This coffee shop is one of best coffee places, if not the best, in Bogor.
 Opened in 2017, Cohere was founded by a group of Indonesian who used to live in Brisbane that share the same passion for coffee.
 
 Before becoming a coffee shop, the building that is now Cohere used to be a big house that has a large garden.
-A huge portion of the structure was later converted into a karaoke place and the part of it became this awesome coffee shop.
+A huge portion of the structure was later converted into a karaoke place and a smaller part of it became this awesome coffee shop.
 They also have a big parking space that can fit (maybe around) 25 cars that makes finding a parking spot very easy.
 
 Once you step in, you'll notice two things
