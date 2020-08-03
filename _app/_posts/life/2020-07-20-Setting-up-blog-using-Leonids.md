@@ -30,5 +30,3 @@ $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 After that, commit and push the changes that you've made and let github render your blog for you.
 
 Happy blogging!
-
----

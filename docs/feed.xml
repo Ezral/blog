@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-08-03T11:27:27+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Bogor's best coffee shop</title><id>https://ezral.net/Best-coffee-in-Bogor.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Best-coffee-in-Bogor.html" /><published>2020-08-02T00:00:00+00:00</published><updated>2020-08-03T11:19:26+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-08-03T11:31:38+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Bogor's best coffee shop</title><id>https://ezral.net/Best-coffee-in-Bogor.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Best-coffee-in-Bogor.html" /><published>2020-08-02T00:00:00+00:00</published><updated>2020-08-03T11:19:26+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;h3 id=&quot;tldr&quot;&gt;TL;DR.&lt;/h3&gt;
 
@@ -89,9 +89,6 @@ As for the coffee, they consistently serve really good quality coffee.&lt;/p&gt;
 
 &lt;p&gt;Give it a shot when you’re in Bogor. &lt;sub&gt;(Or if you’re living in Bogor but have never been to Cohere before)&lt;/sub&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -117,9 +114,6 @@ This is how you can set up a jekyll blog using &lt;a href=&quot;https://github.c
 &lt;p&gt;After that, commit and push the changes that you’ve made and let github render your blog for you.&lt;/p&gt;
 
 &lt;p&gt;Happy blogging!&lt;/p&gt;
-
-&lt;hr /&gt;
-
 
           
           
@@ -337,8 +331,6 @@ This is how you can set up a jekyll blog using &lt;a href=&quot;https://github.c
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NaN&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;hr /&gt;
-
 
           
           
@@ -388,9 +380,6 @@ After a googling session, I discovered &lt;a href=&quot;https://docs.scipy.org/d
 
 &lt;p&gt;Done!&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -419,9 +408,6 @@ After a googling session, I discovered &lt;a href=&quot;https://docs.scipy.org/d
 &lt;p&gt;This is certainly not the best way to make a &lt;strong&gt;&lt;em&gt;pseudo espresso&lt;/em&gt;&lt;/strong&gt;, but the ease of use and the cup of coffee it yields translate into a very good experience for me.&lt;/p&gt;
 
 &lt;p&gt;&lt;sub&gt;&lt;em&gt;note&lt;/em&gt;: For a good price I’d recommend getting &lt;a href=&quot;https://www.tokopedia.com/northsider&quot;&gt;coffee beans from northsider&lt;/a&gt;.&lt;/sub&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
 
           
           
@@ -476,9 +462,6 @@ After a googling session, I discovered &lt;a href=&quot;https://docs.scipy.org/d
 &lt;p&gt;This, added with the technique drill and the rolls should get anyone in shape if done at a regular interval (of course diet plays a huge part as well).&lt;/p&gt;
 
 &lt;p&gt;Since most of the schools out there give free first lesson, it’s possible to check out different places before making the decision on picking up BJJ.&lt;/p&gt;
-
-&lt;hr /&gt;
-
 
           
           
@@ -599,9 +582,6 @@ After a googling session, I discovered &lt;a href=&quot;https://docs.scipy.org/d
 &lt;p&gt;Overall, I’m happy with the end result and all the take aways that I got from working this project. On to the next!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#background&quot;&gt;Back to top&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
 
           
           
@@ -1002,9 +982,6 @@ The applied function works as expected. Next we’ll do the calculation in the a
 
 &lt;p&gt;&lt;a href=&quot;#background&quot;&gt;Back to top&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1037,9 +1014,6 @@ The applied function works as expected. Next we’ll do the calculation in the a
 
 &lt;p&gt;Once these 3 steps are done you are ready to go. For more details on usage check out &lt;a href=&quot;https://github.com/linjer/jekyll-katex&quot;&gt;Jekyll-Katex&lt;/a&gt; page.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1071,9 +1045,6 @@ For example,&lt;/p&gt;
 
 &lt;p&gt;Click &lt;a href=&quot;https://nbviewer.jupyter.org/github/Ezral/guided_project/blob/master/Mobile%20App%20for%20Lottery%20Addiction.ipynb&quot;&gt;here&lt;/a&gt; to view the notebook.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1094,9 +1065,6 @@ That was the turning point that led me to ECG self study which involved hours of
 
 &lt;p&gt;These will definitely be enough for anyone to master the basics of ECG. If you want to go further however, there’s this post written by &lt;a href=&quot;https://www.roshreview.com/author/sweisenfeld/&quot;&gt;Shari Weisenfeld, MD&lt;/a&gt; that outlines a very detailed &lt;a href=&quot;https://www.roshreview.com/blog/study-strategies/how-an-internist-learned-to-read-ekgs-better-than-a-cardiologist/&quot;&gt;ECG self-study program&lt;/a&gt; that you can follow to get from scratch to an advanced level.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1104,9 +1072,6 @@ That was the turning point that led me to ECG self study which involved hours of
         </content><summary>Being able to read ECG was one of my main goals in the late years of med school.After I graduated, I’d be able to recognise the life threatening ones but I wasn’t really comfortable doing a proper interpretation.One time during a visit to the ICU a colleague pointed out something that I wasn’t able to read and it wasn’t good.That was the turning point that led me to ECG self study which involved hours of youtube and reading and doing exercises.</summary></entry><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;&lt;img src=&quot;/assets/img/img2.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
 
           
           
@@ -1141,9 +1106,6 @@ That was the turning point that led me to ECG self study which involved hours of
 
 &lt;p&gt;And that’s how I get them posts published.&lt;/p&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1160,9 +1122,6 @@ per 1,000 population.
 — &lt;a href=&quot;https://www.who.int/gho/health_workforce/physicians_density/en/&quot;&gt;World Health Organization&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1171,9 +1130,6 @@ per 1,000 population.
           
             &lt;p&gt;From a colleague’s remark regarding data science course, I was somehow encouraged to venture into doing some lessons on &lt;a href=&quot;https://dataquest.io&quot;&gt;Dataquest&lt;/a&gt;. Little did I know that I was going to like it this much.
 I figure I’d keep one of the first Dataquest guided projects that I completed in this blog. This one is about &lt;a href=&quot;https://nbviewer.jupyter.org/urls/community.dataquest.io/uploads/short-url/6dRDpeZHZCHxZUwyDrGKo3DMrcv.ipynb&quot;&gt;Star Wars movie survey&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
 
           
           
@@ -1316,9 +1272,6 @@ Background:     1E2127        Background:     F9F9F9&lt;/code&gt;&lt;/pre&gt;&lt
   &lt;li&gt;&lt;a href=&quot;https://github.com/nathanbuchar/atom-one-dark-terminal&quot;&gt;Atom one dark for terminal&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
-
           
           
         
@@ -1336,9 +1289,6 @@ Background:     1E2127        Background:     F9F9F9&lt;/code&gt;&lt;/pre&gt;&lt
 &lt;blockquote&gt;
   &lt;p&gt;² Air ambulance cost for Jakarta to Singapore sector between the year 2016 – 2017 can vary from USD &lt;strong&gt;13,000&lt;/strong&gt; to &lt;strong&gt;26,000&lt;/strong&gt; depending on complexity of medical condition, aircraft type, and origin of aircraft.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
 
           
           

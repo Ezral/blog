@@ -6,5 +6,3 @@ tags: data
 ---
 
 ![doc_proportion](/assets/img/img2.png)
-
----

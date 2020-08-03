@@ -12,6 +12,3 @@ Although the term __air medical evacuation__ covers many things¹, it's most com
 Is it popular? It is an option for the wealthy and lucky few. The cost² can easily pays off your car instalments or your kid’s tuition.
 
 >² Air ambulance cost for Jakarta to Singapore sector between the year 2016 – 2017 can vary from USD __13,000__ to __26,000__ depending on complexity of medical condition, aircraft type, and origin of aircraft.
-
-
----

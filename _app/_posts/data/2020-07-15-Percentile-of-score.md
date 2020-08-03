@@ -56,5 +56,3 @@ Name: percentile_rank, dtype: float64
 {% endhighlight %}
 
 Done!
-
----

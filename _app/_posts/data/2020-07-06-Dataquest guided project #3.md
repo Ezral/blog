@@ -428,5 +428,3 @@ print("Number of incorrect label: {}".format(total-correct))
 In conclusion, it's a really worthwhile project that helped me understand the application of Bayes theorem and see how a simple spam filter that uses statistics works. It would be interesting to see how we might be able to increase the accuracy further by modifying the algorithm.
 
 [Back to top](#background)
-
----

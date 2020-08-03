@@ -56,5 +56,3 @@ To give a picture what the exercise is like, a set of warm-ups can be as the fol
 This, added with the technique drill and the rolls should get anyone in shape if done at a regular interval (of course diet plays a huge part as well).
 
 Since most of the schools out there give free first lesson, it's possible to check out different places before making the decision on picking up BJJ.
-
----

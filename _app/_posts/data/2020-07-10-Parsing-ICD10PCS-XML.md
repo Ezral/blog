@@ -132,5 +132,3 @@ I didn't use tqdm progress bar in this notebook because the functions are quite 
 Overall, I'm happy with the end result and all the take aways that I got from working this project. On to the next!
 
 [Back to top](#background)
-
----

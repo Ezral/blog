@@ -113,6 +113,3 @@ def frs(x):
     else:
         return np.NaN
 {% endhighlight %}
-
-
----

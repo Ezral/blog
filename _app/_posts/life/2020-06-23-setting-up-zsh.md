@@ -153,5 +153,3 @@ The background color I used also follows the One Dark black color which hex is `
    - [Zsh-syntax-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
    - [FiraCode font](https://github.com/tonsky/FiraCode)
    - [Atom one dark for terminal](https://github.com/nathanbuchar/atom-one-dark-terminal)
-
----

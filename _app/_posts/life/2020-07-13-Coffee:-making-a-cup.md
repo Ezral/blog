@@ -32,5 +32,3 @@ All the money I'm not spending on buying coffee from coffee shops sounds like a 
 This is certainly not the best way to make a __*pseudo espresso*__, but the ease of use and the cup of coffee it yields translate into a very good experience for me.
 
 <sub>_note_: For a good price I'd recommend getting [coffee beans from northsider](https://www.tokopedia.com/northsider).</sub>
-
----

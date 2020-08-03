@@ -96,5 +96,3 @@ As for the coffee, they consistently serve really good quality coffee.
 It's a great spot to add to your destination list when in Bogor. Either to just hang out or to wait the traffic out before driving back to Jakarta.
 
 Give it a shot when you're in Bogor. <sub>(Or if you're living in Bogor but have never been to Cohere before)</sub>
-
----

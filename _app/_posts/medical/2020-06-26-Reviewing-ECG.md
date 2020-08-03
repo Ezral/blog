@@ -22,5 +22,3 @@ I'd strongly recommend the following resources to those wanting to learn to inte
 - Finish all 200 ECG problems in [Amal Mattu's book](https://www.amazon.com/ECGs-Emergency-Physician-Amal-Mattu/dp/0727916548).
 
 These will definitely be enough for anyone to master the basics of ECG. If you want to go further however, there's this post written by [Shari Weisenfeld, MD](https://www.roshreview.com/author/sweisenfeld/) that outlines a very detailed [ECG self-study program](https://www.roshreview.com/blog/study-strategies/how-an-internist-learned-to-read-ekgs-better-than-a-cardiologist/) that you can follow to get from scratch to an advanced level.
-
----

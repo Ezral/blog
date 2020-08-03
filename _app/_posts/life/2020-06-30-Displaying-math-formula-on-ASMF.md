@@ -30,5 +30,3 @@ Once this is done, execute ```bundle install```
 {% endhighlight %}
 
 Once these 3 steps are done you are ready to go. For more details on usage check out [Jekyll-Katex](https://github.com/linjer/jekyll-katex) page.
-
----

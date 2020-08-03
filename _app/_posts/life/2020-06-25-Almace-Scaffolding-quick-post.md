@@ -35,5 +35,3 @@ function buildblog() {
 {% endhighlight %}
 
 And that's how I get them posts published.
-
----
