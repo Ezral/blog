@@ -21,7 +21,7 @@ Before becoming a coffee shop, the building that is now Cohere used to be a big 
 A huge portion of the structure was later converted into a karaoke place and a smaller part of it became this awesome coffee shop.
 They also have a big parking space that can accommodate around 20++ cars.
 
-Once you step in, you'll notice the huge windows filling the room with natural light throughout the day and that the whole space
+Inside, you'll notice the huge windows filling the room with natural light throughout the day and that the whole space
 is visible starting all the way to the back. Making you appreciate how spacious it is.
 
 The combination of cement floor, white walls, wooden furnitures, yellow hue light bulbs,
