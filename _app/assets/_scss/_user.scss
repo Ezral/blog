@@ -21,6 +21,16 @@
     font-family: 'Fira Code', monospace;
   }
 
+  // Font Awesome center and padding
+
+  i {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  td {
+    text-align: center;
+  }
   // .language-plaintext {
   //   background: hsla(349, 95%, 70%, 0.08);
   // }

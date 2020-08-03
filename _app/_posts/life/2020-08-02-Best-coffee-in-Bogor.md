@@ -48,7 +48,7 @@ Can't go wrong with espresso.
 For their coffee beans, Cohere uses its own house blend which is 100% arabica, as they don't provide anything but specialty coffee.
 Their latest addition to the menu, es kopi susu in 1L bottle is now catering for the growing demand of home es kopi susu stock.
 
-For foods, they have a wide selection of appetiser/snack, mains and desserts.
+For foods, they have a wide selection of appetizer/snack, mains and desserts.
 [Cohere's page in zomato](https://www.zomato.com/jakarta/cohere-bogor-timur-bogor) has all the details.
 If you ask me, I particularly like the pink carbonara and the brownies with ice cream.
 
@@ -89,7 +89,7 @@ A 100%! I really enjoyed the homey feel that it offers. Even when compared to co
 I can't say I've eaten every dish on the menu, but the ones I did try definitely did not disappoint.
 As for the coffee, they consistently serve really good quality coffee.
 
-10 out if 10 times, I recommended Cohere to friends or family visiting Bogor whenever they asked for my recommendation.
+10 out of 10 times, I recommended Cohere to friends or family visiting Bogor whenever they asked for my recommendation.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3331457576564!2d106.81021931466412!3d-6.605459395223172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5de710a1311%3A0x7bb49088d326fd02!2sCohere!5e0!3m2!1sen!2sid!4v1596386386914!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>{: .size-small}
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-08-03T05:00:09+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Bogor's best coffee shop</title><id>https://ezral.net/Best-coffee-in-Bogor.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Best-coffee-in-Bogor.html" /><published>2020-08-02T00:00:00+00:00</published><updated>2020-08-03T01:46:15+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ezral</title><subtitle>Projects, articles and random thoughts</subtitle><updated>2020-08-03T11:18:44+00:00</updated><id>https://ezral.net/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.18">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://ezral.net/" /><link rel="self" type="application/atom+xml" href="https://ezral.net/feed.xml" /><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><entry><title>Bogor's best coffee shop</title><id>https://ezral.net/Best-coffee-in-Bogor.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Best-coffee-in-Bogor.html" /><published>2020-08-02T00:00:00+00:00</published><updated>2020-08-03T05:00:46+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;h3 id=&quot;tldr&quot;&gt;TL;DR.&lt;/h3&gt;
 
@@ -41,7 +41,7 @@ Can’t go wrong with espresso.&lt;/p&gt;
 &lt;p&gt;For their coffee beans, Cohere uses its own house blend which is 100% arabica, as they don’t provide anything but specialty coffee.
 Their latest addition to the menu, es kopi susu in 1L bottle is now catering for the growing demand of home es kopi susu stock.&lt;/p&gt;
 
-&lt;p&gt;For foods, they have a wide selection of appetiser/snack, mains and desserts.
+&lt;p&gt;For foods, they have a wide selection of appetizer/snack, mains and desserts.
 &lt;a href=&quot;https://www.zomato.com/jakarta/cohere-bogor-timur-bogor&quot;&gt;Cohere’s page in zomato&lt;/a&gt; has all the details.
 If you ask me, I particularly like the pink carbonara and the brownies with ice cream.&lt;/p&gt;
 
@@ -81,7 +81,7 @@ They will also require you to wash your hand the moment you enter the coffee sho
 &lt;p&gt;I can’t say I’ve eaten every dish on the menu, but the ones I did try definitely did not disappoint.
 As for the coffee, they consistently serve really good quality coffee.&lt;/p&gt;
 
-&lt;p&gt;10 out if 10 times, I recommended Cohere to friends or family visiting Bogor whenever they asked for my recommendation.&lt;/p&gt;
+&lt;p&gt;10 out of 10 times, I recommended Cohere to friends or family visiting Bogor whenever they asked for my recommendation.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3331457576564!2d106.81021931466412!3d-6.605459395223172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5de710a1311%3A0x7bb49088d326fd02!2sCohere!5e0!3m2!1sen!2sid!4v1596386386914!5m2!1sen!2sid&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot; class=&quot;size-small&quot;&gt;&lt;/iframe&gt;
 
@@ -1080,7 +1080,8 @@ For example,&lt;/p&gt;
       
         </content><summary>This is another guided project from Dataquest that I recently completed.It’s not really data heavy like the usual ones as it focuses more on probability topic.I particularly enjoy this one where I learned how to write math formula using TeX in Jupyter Notebook.</summary></entry><entry><title>Reviewing ECG</title><id>https://ezral.net/Reviewing-ECG.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Reviewing-ECG.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-07-19T10:42:42+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
-            &lt;p&gt;Being able to read ECG was one of my main goals in the late years of med school. After I graduated, I’d be able to recognise the life threatening ones but I wasn’t really comfortable doing a proper interpretation.
+            &lt;p&gt;Being able to read ECG was one of my main goals in the late years of med school.
+After I graduated, I’d be able to recognise the life threatening ones but I wasn’t really comfortable doing a proper interpretation.
 One time during a visit to the ICU a colleague pointed out something that I wasn’t able to read and it wasn’t good.
 That was the turning point that led me to ECG self study which involved hours of youtube and reading and doing exercises.&lt;/p&gt;
 
@@ -1100,7 +1101,7 @@ That was the turning point that led me to ECG self study which involved hours of
           
         
       
-        </content><summary>Being able to read ECG was one of my main goals in the late years of med school. After I graduated, I’d be able to recognise the life threatening ones but I wasn’t really comfortable doing a proper interpretation.One time during a visit to the ICU a colleague pointed out something that I wasn’t able to read and it wasn’t good.That was the turning point that led me to ECG self study which involved hours of youtube and reading and doing exercises.</summary></entry><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
+        </content><summary>Being able to read ECG was one of my main goals in the late years of med school.After I graduated, I’d be able to recognise the life threatening ones but I wasn’t really comfortable doing a proper interpretation.One time during a visit to the ICU a colleague pointed out something that I wasn’t able to read and it wasn’t good.That was the turning point that led me to ECG self study which involved hours of youtube and reading and doing exercises.</summary></entry><entry><title>Proportion of Doctors in Indonesia</title><id>https://ezral.net/Proportion-of-Doctors-in-Indonesia.html</id><link rel="alternate" type="text/html" href="https://ezral.net/Proportion-of-Doctors-in-Indonesia.html" /><published>2020-06-26T00:00:00+00:00</published><updated>2020-06-30T07:11:03+00:00</updated><author><name>Ezral</name><uri>https://ezral.net/</uri><email>a@ezral.net</email></author><content type="html" xml:base="https://ezral.net/">
           
             &lt;p&gt;&lt;img src=&quot;/assets/img/img2.png&quot; alt=&quot;doc_proportion&quot; /&gt;&lt;/p&gt;
 
