@@ -29,7 +29,7 @@ and the touch of greens from the indoor plants do a great job in giving off a wa
 
 ![](/assets/img/cohere04.jpg){: .size-small}
 
-The space are divided into 4 separate sections:
+The space is divided into 4 separate sections:
 - The area over the main entrance that resembles a living room
 - The area nearby the coffee bar  
 - The more private middle area separated by a sliding glass door that can serve as a co-working/meeting space
