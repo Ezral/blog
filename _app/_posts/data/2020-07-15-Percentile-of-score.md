@@ -2,7 +2,7 @@
 layout: post
 title: Percentile of score
 category: data
-tags: [data, pin]
+tags: [data]
 ---
 
 Earlier at work I was trying to figure out how to do in Python what ```ntile()``` in R does.

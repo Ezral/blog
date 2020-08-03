@@ -11,7 +11,7 @@ tags: [misc, pin]
 
 ### TL;DR.
 
-[Cohere](https://www.instagram.com/cohere.bogor/) one of best coffee places, if not the best, in Bogor.
+[Cohere](https://www.instagram.com/cohere.bogor/) is one of best coffee places, if not the best, in Bogor.
 
 ### The place
 
