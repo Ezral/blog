@@ -8,6 +8,12 @@ scheme-link: "#E06C75"
 scheme-hover: "#E45649"
 scheme-code: "#61AFEF"
 scheme-bg: "#1E2127"
+heading-bg: img/about.jpg
+heading-bg-local: true
+# heading-bg-size: "100px 100px"
+# heading-bg-position: "center bottom"
+# heading-bg-repeat: "repeat"
+heading-bg-text: "#ffd1d5"
 ---
 
 Documentation for the things I find interesting.
