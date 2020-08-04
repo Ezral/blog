@@ -60,7 +60,7 @@ The staffs are very friendly and know what they're doing.
 The order doesn't take long; it normally takes around 5 - 10 minutes for drinks and 15 - 20 minutes for food.
 And if you need to, you can keep the bill open. Which is convenient!
 
-Price wise, it's slightly above your average coffee place in Bogor, but worth every penny. <sub> (in this case, worth every perak)</sub>
+The price? it's slightly above your average coffee place in Bogor, but worth every penny. <sub> (in this case, worth every perak)</sub>
 
 For payment they accept: cash, OVO, go-pay and BCA debit card.
 They are not able to accept credit card or debit card other than BCA yet (confirmation required).
