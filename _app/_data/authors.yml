@@ -5,12 +5,14 @@
 # {{ author.name }}: author name, used in post pages, and atom feed
 # {{ author.email }}: used in atom feed, homepage
 # {{ author.web }}: used in atom feed
-# {{ author.twitter }}: used by Twitter Cards
+# {{ author.twitter }}: used by Twitter Cards, and used in footer link
+# {{ author.github }}: used in footer link
 default:
   name:         Ezral
   email:        a@ezral.net
   web:          https://ezral.net/
-  twitter:      ald_latumahina
+  twitter:      ezralMD
+  github:       ezral
 
 tester:
   name:         Tester

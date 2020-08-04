@@ -28,31 +28,8 @@ So does this mean anybody can do it? This is [Gracie Barra](https://graciebarra.
 Do I agree with the statement?  I say, everyone should give it a try. Even if there's no intention to compete and the only goal is to get in shape, it'll do a great job. A regular session would normally be 1 to 1.5 hour long and consists of warm-ups, technique drill and rolling (or sparring) - this varies depending on the school.
 
 Does it really benefit someone who isn't an aspiring BJJ athlete? Yes.
+Even when done only once or twice a week, the technique drill and the rolls should get anyone in shape if done regularly(of course diet plays a huge part as well).
 
-To give a picture what the exercise is like, a set of warm-ups can be as the following (done continuously without any rest):
-- 20 jumping jacks
-- 20 squats
-- 20 pushups
-- 20 arm stretches
-- 20 lunges
-- 20 pushups
-- 20 arm stretches
-- 20 sprawls
-- 20 pushups
-- 20 choke sit-ups
-- 20 crunches x2
-- 10 chin to chest
-- 10 chin to shoulder
-- 10 ear to shoulder
-- 20 bridges
-- 10 bridge to turtle
-- 10 shift bases
-- 10 leg crosses
-- 10 technique stand-ups
-- 6 fwd rolls
-- 6 back rolls
-- 6 shrimping
+Since most of the schools out there give free first lesson, it's possible to check out different places before making the decision on picking up BJJ. If you're based in Jakarta and would like to try BJJ, give [Gracie Barra South Jakarta](https://www.graciebarraindonesia.com/) a visit.
 
-This, added with the technique drill and the rolls should get anyone in shape if done at a regular interval (of course diet plays a huge part as well).
-
-Since most of the schools out there give free first lesson, it's possible to check out different places before making the decision on picking up BJJ.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1143042206045!2d106.84136911486652!3d-6.2486656629233295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f315998264c7%3A0x72d26a9a40781d87!2sGracie%20Barra%20Indonesia!5e0!3m2!1sen!2sid!4v1596502754409!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>{: .size-small}
