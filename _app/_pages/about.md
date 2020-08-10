@@ -18,8 +18,22 @@ heading-bg-text: "#ffd1d5"
 
 Documentation for the things I find interesting.
 Random thoughts and rants of an Indonesian MD who happens to be a コーヒ と ブラジルの柔術 ¹ enthusiast.
-```
-¹ Coffee and BJJ.
-```
 
-<sup><sup><sup>All views expressed on this site are the author’s own opinion and do not represent the opinions of any affiliation that the author has.</sup></sup></sup>
+{% highlight zsh %}
+¹ Coffee and BJJ.
+{% endhighlight %}   
+
+Featured posts are pinned on the home page. Everything else are classified into:
+
+{% highlight zsh %}
+.
+├── Medical
+│   └─ Posts
+├── Data
+│   └─ Data Work
+└── Life
+    ├─ Miscellaneous
+    └─ Computer Stuff
+{% endhighlight %}   
+
+<a style="color:#ffd1d5"><sup><sup><sup>Contents expressed on this site are the author’s own opinion and do not represent the view or opinion of any affiliation that the author has.</sup></sup></sup></a>
