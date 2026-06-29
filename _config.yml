@@ -130,7 +130,7 @@ feed:           /feed.xml
 # URLs for these fields
 #
 # Default:      https://sparanoid.com
-url:            https://ezral.net
+url:    https://ezral.github.io
 
 # Media assets URL
 #
