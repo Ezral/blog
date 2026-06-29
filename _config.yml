@@ -100,7 +100,7 @@ description:    "Projects, articles and random thoughts"
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        ""
+baseurl:        "/blog"
 
 # Flatten base
 #
@@ -130,7 +130,7 @@ feed:           /feed.xml
 # URLs for these fields
 #
 # Default:      https://sparanoid.com
-url:    https://ezral.github.io/blog/
+url:    https://ezral.github.io
 
 # Media assets URL
 #
