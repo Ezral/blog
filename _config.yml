@@ -110,7 +110,7 @@ baseurl:        "/blog"
 # enable this option if you're using GitHub Pages.
 #
 # Default:      false
-flatten_base:   true
+flatten_base:   false
 
 # CSS path used in templates
 #
