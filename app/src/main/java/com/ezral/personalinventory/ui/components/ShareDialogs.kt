@@ -24,6 +24,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
+import com.ezral.personalinventory.data.local.entity.ContainerType
+import com.ezral.personalinventory.ui.components.SinglePhotoPickerField
 
 fun copyToClipboard(context: Context, label: String, text: String) {
     val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
@@ -34,17 +36,22 @@ fun copyToClipboard(context: Context, label: String, text: String) {
 fun EditHouseDialog(
     initialName: String,
     initialAddress: String = "",
+    initialPhotoUri: String? = null,
     onDismiss: () -> Unit,
-    onSave: (name: String, address: String) -> Unit,
+    onSave: (name: String, address: String, photoUri: String?) -> Unit,
 ) {
     var name by rememberSaveable { mutableStateOf(initialName) }
     var address by rememberSaveable { mutableStateOf(initialAddress) }
+    var photoUri by rememberSaveable { mutableStateOf(initialPhotoUri) }
 
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Edit house") },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
                 OutlinedTextField(
                     value = name,
                     onValueChange = { name = it },
@@ -59,10 +66,15 @@ fun EditHouseDialog(
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth(),
                 )
+                SinglePhotoPickerField(
+                    photoUri = photoUri,
+                    onPhotoUriChange = { photoUri = it },
+                    label = "House photo",
+                )
             }
         },
         confirmButton = {
-            TextButton(onClick = { onSave(name, address) }, enabled = name.isNotBlank()) {
+            TextButton(onClick = { onSave(name, address, photoUri) }, enabled = name.isNotBlank()) {
                 Text("Save")
             }
         },
@@ -76,17 +88,22 @@ fun EditHouseDialog(
 fun EditRoomDialog(
     initialName: String,
     initialFloor: String = "",
+    initialPhotoUri: String? = null,
     onDismiss: () -> Unit,
-    onSave: (name: String, floorLabel: String) -> Unit,
+    onSave: (name: String, floorLabel: String, photoUri: String?) -> Unit,
 ) {
     var name by rememberSaveable { mutableStateOf(initialName) }
     var floor by rememberSaveable { mutableStateOf(initialFloor) }
+    var photoUri by rememberSaveable { mutableStateOf(initialPhotoUri) }
 
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Edit room") },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
                 OutlinedTextField(
                     value = name,
                     onValueChange = { name = it },
@@ -101,10 +118,75 @@ fun EditRoomDialog(
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth(),
                 )
+                SinglePhotoPickerField(
+                    photoUri = photoUri,
+                    onPhotoUriChange = { photoUri = it },
+                    label = "Room photo",
+                )
             }
         },
         confirmButton = {
-            TextButton(onClick = { onSave(name, floor) }, enabled = name.isNotBlank()) {
+            TextButton(onClick = { onSave(name, floor, photoUri) }, enabled = name.isNotBlank()) {
+                Text("Save")
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) { Text("Cancel") }
+        },
+    )
+}
+
+@Composable
+fun EditContainerDialog(
+    initialName: String,
+    initialType: ContainerType = ContainerType.OTHER,
+    initialDescription: String = "",
+    initialPhotoUri: String? = null,
+    onDismiss: () -> Unit,
+    onSave: (name: String, type: ContainerType, description: String, photoUri: String?) -> Unit,
+) {
+    var name by rememberSaveable { mutableStateOf(initialName) }
+    var type by rememberSaveable { mutableStateOf(initialType) }
+    var description by rememberSaveable { mutableStateOf(initialDescription) }
+    var photoUri by rememberSaveable { mutableStateOf(initialPhotoUri) }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Edit container") },
+        text = {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                OutlinedTextField(
+                    value = name,
+                    onValueChange = { name = it },
+                    label = { Text("Name") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                OutlinedTextField(
+                    value = type.name.lowercase().replaceFirstChar { it.uppercase() },
+                    onValueChange = {},
+                    readOnly = true,
+                    label = { Text("Type") },
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                OutlinedTextField(
+                    value = description,
+                    onValueChange = { description = it },
+                    label = { Text("Description (optional)") },
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                SinglePhotoPickerField(
+                    photoUri = photoUri,
+                    onPhotoUriChange = { photoUri = it },
+                    label = "Container photo",
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = { onSave(name, type, description, photoUri) }, enabled = name.isNotBlank()) {
                 Text("Save")
             }
         },

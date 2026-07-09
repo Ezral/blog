@@ -90,6 +90,9 @@ interface ContainerDao {
     @Query("SELECT * FROM containers WHERE id = :id")
     fun observeById(id: Long): Flow<ContainerEntity?>
 
+    @Query("SELECT * FROM containers WHERE id = :id")
+    suspend fun getById(id: Long): ContainerEntity?
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(container: ContainerEntity): Long
 
@@ -159,6 +162,7 @@ interface ItemDao {
            OR description LIKE '%' || :query || '%'
            OR brand LIKE '%' || :query || '%'
            OR category LIKE '%' || :query || '%'
+           OR barcode LIKE '%' || :query || '%'
         ORDER BY name ASC
         """,
     )
@@ -166,6 +170,9 @@ interface ItemDao {
 
     @Query("SELECT * FROM items WHERE id = :id")
     suspend fun getById(id: Long): ItemEntity?
+
+    @Query("SELECT * FROM items WHERE barcode = :barcode LIMIT 1")
+    suspend fun getByBarcode(barcode: String): ItemEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(item: ItemEntity): Long
@@ -226,6 +233,7 @@ interface ItemDao {
         WHERE i.name LIKE '%' || :query || '%'
            OR i.description LIKE '%' || :query || '%'
            OR i.brand LIKE '%' || :query || '%'
+           OR i.barcode LIKE '%' || :query || '%'
         ORDER BY i.name ASC
         """,
     )

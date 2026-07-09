@@ -59,13 +59,20 @@ class HouseRepository @Inject constructor(
         return houseId
     }
 
-    suspend fun updateHouse(houseId: Long, name: String, address: String? = null, notes: String? = null) {
+    suspend fun updateHouse(
+        houseId: Long,
+        name: String,
+        address: String? = null,
+        notes: String? = null,
+        coverPhotoUri: String? = null,
+    ) {
         val house = houseDao.getById(houseId) ?: return
         houseDao.update(
             house.copy(
                 name = name.trim(),
                 address = address?.ifBlank { null },
                 notes = notes?.ifBlank { null },
+                coverPhotoUri = coverPhotoUri,
                 updatedAt = System.currentTimeMillis(),
             ),
         )
@@ -101,6 +108,7 @@ class RoomRepository @Inject constructor(
         name: String,
         floorLabel: String? = null,
         notes: String? = null,
+        photoUri: String? = null,
     ) {
         val room = roomDao.getById(roomId) ?: return
         roomDao.update(
@@ -108,6 +116,7 @@ class RoomRepository @Inject constructor(
                 name = name.trim(),
                 floorLabel = floorLabel?.ifBlank { null },
                 notes = notes?.ifBlank { null },
+                photoUri = photoUri,
             ),
         )
     }
@@ -138,6 +147,7 @@ class ContainerRepository @Inject constructor(
         type: com.ezral.personalinventory.data.local.entity.ContainerType,
         parentId: Long? = null,
         description: String? = null,
+        photoUri: String? = null,
     ): Long {
         return containerDao.insert(
             ContainerEntity(
@@ -146,6 +156,25 @@ class ContainerRepository @Inject constructor(
                 name = name,
                 type = type,
                 description = description,
+                photoUri = photoUri,
+            ),
+        )
+    }
+
+    suspend fun updateContainer(
+        containerId: Long,
+        name: String,
+        type: com.ezral.personalinventory.data.local.entity.ContainerType,
+        description: String? = null,
+        photoUri: String? = null,
+    ) {
+        val container = containerDao.getById(containerId) ?: return
+        containerDao.update(
+            container.copy(
+                name = name.trim(),
+                type = type,
+                description = description?.ifBlank { null },
+                photoUri = photoUri,
             ),
         )
     }
@@ -174,6 +203,9 @@ class ItemRepository @Inject constructor(
     fun searchWithLocation(query: String): Flow<List<ItemLocationRow>> =
         itemDao.searchWithLocation(query.trim())
 
+    suspend fun findByBarcode(barcode: String): ItemEntity? =
+        itemDao.getByBarcode(barcode.trim())
+
     suspend fun getLocationPath(itemId: Long): LocationPath? {
         val row = itemDao.getLocationRow(itemId) ?: return null
         return LocationPath(
@@ -198,29 +230,30 @@ class ItemRepository @Inject constructor(
         require(draft.name.isNotBlank()) { "Item name is required" }
 
         val now = System.currentTimeMillis()
+        val existing = if (draft.id != 0L) itemDao.getById(draft.id) else null
         val entity = ItemEntity(
             id = draft.id,
             containerId = draft.containerId,
             roomId = if (draft.containerId == null) draft.roomId else null,
             name = draft.name.trim(),
             description = draft.description.ifBlank { null },
+            itemType = draft.itemType,
             category = draft.category.ifBlank { null },
             brand = draft.brand.ifBlank { null },
             isConsumable = draft.isConsumable,
             quantity = draft.quantity,
             unit = draft.unit.ifBlank { "pcs" },
+            barcode = draft.barcode.ifBlank { null },
             isFavorite = draft.isFavorite,
+            currentExpiryDate = if (draft.isConsumable) draft.expiryDateMillis else null,
             updatedAt = now,
-            createdAt = if (draft.id == 0L) now else now,
+            createdAt = existing?.createdAt ?: now,
         )
 
         val itemId = if (draft.id == 0L) {
             itemDao.insert(entity)
         } else {
-            val existing = itemDao.getById(draft.id)
-            itemDao.update(
-                entity.copy(createdAt = existing?.createdAt ?: now),
-            )
+            itemDao.update(entity)
             draft.id
         }
 

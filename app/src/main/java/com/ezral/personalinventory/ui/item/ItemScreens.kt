@@ -24,12 +24,18 @@ import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.Photo
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Button
+import androidx.compose.material3.DatePicker
+import androidx.compose.material3.DatePickerDialog
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -47,17 +53,22 @@ import androidx.lifecycle.viewModelScope
 import coil.compose.AsyncImage
 import com.ezral.personalinventory.data.local.dao.ItemWithPhotos
 import com.ezral.personalinventory.data.local.entity.ItemEntity
+import com.ezral.personalinventory.data.local.entity.ItemType
 import com.ezral.personalinventory.data.repository.ItemRepository
 import com.ezral.personalinventory.domain.model.ItemDraft
 import com.ezral.personalinventory.domain.model.LocationPath
 import com.ezral.personalinventory.ui.components.InventoryScaffold
 import com.ezral.personalinventory.ui.components.LocationBreadcrumb
+import com.ezral.personalinventory.util.formatExpiryDate
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+
+private fun ItemType.label(): String =
+    name.lowercase().replaceFirstChar { it.uppercase() }
 
 @HiltViewModel
 class ItemDetailViewModel @Inject constructor(
@@ -142,12 +153,16 @@ fun ItemDetailScreen(
                 onDelete = { viewModel.deleteItem(itemId, onBack) },
             )
 
+            Text("Type: ${item.itemType.label()}", style = MaterialTheme.typography.titleSmall)
             item.description?.let { Text(it) }
             item.brand?.let { Text("Brand: $it") }
             item.category?.let { Text("Category: $it") }
             Text("Quantity: ${item.quantity} ${item.unit}")
             if (item.isConsumable) {
                 Text("Consumable", color = MaterialTheme.colorScheme.primary)
+                formatExpiryDate(item.currentExpiryDate)?.let { expiry ->
+                    Text("Expires: $expiry")
+                }
             }
             item.barcode?.let { Text("Barcode: $it") }
         }
@@ -196,12 +211,13 @@ class AddEditItemViewModel @Inject constructor(
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
+@OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun AddEditItemScreen(
     roomId: Long?,
     containerId: Long?,
     itemId: Long?,
+    initialBarcode: String? = null,
     onBack: () -> Unit,
     onSaved: (Long) -> Unit,
     viewModel: AddEditItemViewModel = hiltViewModel(),
@@ -213,10 +229,15 @@ fun AddEditItemScreen(
     var description by rememberSaveable { mutableStateOf("") }
     var brand by rememberSaveable { mutableStateOf("") }
     var category by rememberSaveable { mutableStateOf("") }
+    var itemTypeName by rememberSaveable { mutableStateOf(ItemType.OTHER.name) }
+    val itemType = ItemType.valueOf(itemTypeName)
     var quantity by rememberSaveable { mutableStateOf("1") }
     var unit by rememberSaveable { mutableStateOf("pcs") }
     var isConsumable by rememberSaveable { mutableStateOf(false) }
+    var expiryDateMillis by rememberSaveable { mutableStateOf<Long?>(null) }
+    var barcode by rememberSaveable { mutableStateOf(initialBarcode.orEmpty()) }
     var photoUris by rememberSaveable { mutableStateOf(listOf<String>()) }
+    var showDatePicker by rememberSaveable { mutableStateOf(false) }
 
     LaunchedEffect(existing, itemId) {
         if (itemId == null || itemId <= 0) return@LaunchedEffect
@@ -225,10 +246,19 @@ fun AddEditItemScreen(
             description = data.item.description.orEmpty()
             brand = data.item.brand.orEmpty()
             category = data.item.category.orEmpty()
+            itemTypeName = data.item.itemType.name
             quantity = data.item.quantity.toString()
             unit = data.item.unit
             isConsumable = data.item.isConsumable
+            expiryDateMillis = data.item.currentExpiryDate
+            barcode = data.item.barcode.orEmpty()
             photoUris = data.photos.map { it.uri }
+        }
+    }
+
+    LaunchedEffect(initialBarcode) {
+        if ((itemId == null || itemId <= 0) && barcode.isBlank() && !initialBarcode.isNullOrBlank()) {
+            barcode = initialBarcode
         }
     }
 
@@ -267,10 +297,20 @@ fun AddEditItemScreen(
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
             )
+            Text("Item type", style = MaterialTheme.typography.labelMedium)
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                ItemType.entries.forEach { type ->
+                    FilterChip(
+                        selected = itemType == type,
+                        onClick = { itemTypeName = type.name },
+                        label = { Text(type.label()) },
+                    )
+                }
+            }
             OutlinedTextField(
                 value = category,
                 onValueChange = { category = it },
-                label = { Text("Category") },
+                label = { Text("Category note (optional)") },
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
             )
@@ -279,6 +319,13 @@ fun AddEditItemScreen(
                 onValueChange = { description = it },
                 label = { Text("Description") },
                 modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedTextField(
+                value = barcode,
+                onValueChange = { barcode = it },
+                label = { Text("Barcode") },
+                modifier = Modifier.fillMaxWidth(),
+                singleLine = true,
             )
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
                 OutlinedTextField(
@@ -302,6 +349,14 @@ fun AddEditItemScreen(
             ) {
                 Text("Consumable")
                 Switch(checked = isConsumable, onCheckedChange = { isConsumable = it })
+            }
+            if (isConsumable) {
+                AssistChip(
+                    onClick = { showDatePicker = true },
+                    label = {
+                        Text(formatExpiryDate(expiryDateMillis) ?: "Set expiry date")
+                    },
+                )
             }
 
             AssistChip(
@@ -331,11 +386,14 @@ fun AddEditItemScreen(
                         id = itemId?.takeIf { it > 0 } ?: 0L,
                         name = name,
                         description = description,
+                        itemType = itemType,
                         brand = brand,
                         category = category,
                         quantity = quantity.toDoubleOrNull() ?: 1.0,
                         unit = unit,
                         isConsumable = isConsumable,
+                        expiryDateMillis = expiryDateMillis,
+                        barcode = barcode,
                         roomId = effectiveRoomId,
                         containerId = effectiveContainerId,
                         photoUris = photoUris,
@@ -347,6 +405,28 @@ fun AddEditItemScreen(
             ) {
                 Text("Save")
             }
+        }
+    }
+
+    if (showDatePicker) {
+        val datePickerState = rememberDatePickerState(
+            initialSelectedDateMillis = expiryDateMillis ?: System.currentTimeMillis(),
+        )
+        DatePickerDialog(
+            onDismissRequest = { showDatePicker = false },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        expiryDateMillis = datePickerState.selectedDateMillis
+                        showDatePicker = false
+                    },
+                ) { Text("OK") }
+            },
+            dismissButton = {
+                TextButton(onClick = { showDatePicker = false }) { Text("Cancel") }
+            },
+        ) {
+            DatePicker(state = datePickerState)
         }
     }
 }

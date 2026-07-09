@@ -7,7 +7,7 @@ object Routes {
     const val ROOM_DETAIL = "room/{roomId}"
     const val CONTAINER_DETAIL = "container/{containerId}"
     const val ITEM_DETAIL = "item/{itemId}"
-    const val ADD_ITEM = "item/add?roomId={roomId}&containerId={containerId}&itemId={itemId}"
+    const val ADD_ITEM = "item/add?roomId={roomId}&containerId={containerId}&itemId={itemId}&barcode={barcode}"
     const val SEARCH = "search?query={query}"
     const val SCAN = "scan"
     const val LISTS = "lists"
@@ -16,8 +16,14 @@ object Routes {
     fun roomDetail(roomId: Long) = "room/$roomId"
     fun containerDetail(containerId: Long) = "container/$containerId"
     fun itemDetail(itemId: Long) = "item/$itemId"
-    fun addItem(roomId: Long? = null, containerId: Long? = null, itemId: Long? = null): String {
-        return "item/add?roomId=${roomId ?: -1}&containerId=${containerId ?: -1}&itemId=${itemId ?: -1}"
+    fun addItem(
+        roomId: Long? = null,
+        containerId: Long? = null,
+        itemId: Long? = null,
+        barcode: String? = null,
+    ): String {
+        val encodedBarcode = barcode?.let { java.net.URLEncoder.encode(it, Charsets.UTF_8.name()) }.orEmpty()
+        return "item/add?roomId=${roomId ?: -1}&containerId=${containerId ?: -1}&itemId=${itemId ?: -1}&barcode=$encodedBarcode"
     }
     fun search(query: String = "") = "search?query=${query}"
 }

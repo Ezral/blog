@@ -15,6 +15,7 @@ import com.ezral.personalinventory.data.local.entity.ContainerType
 import com.ezral.personalinventory.data.local.entity.HouseEntity
 import com.ezral.personalinventory.data.local.entity.ItemEntity
 import com.ezral.personalinventory.data.local.entity.ItemPhotoEntity
+import com.ezral.personalinventory.data.local.entity.ItemType
 import com.ezral.personalinventory.data.local.entity.RecentItemEntity
 import com.ezral.personalinventory.data.local.entity.RoomEntity
 
@@ -24,6 +25,12 @@ class InventoryConverters {
 
     @TypeConverter
     fun toContainerType(value: String): ContainerType = ContainerType.valueOf(value)
+
+    @TypeConverter
+    fun fromItemType(value: ItemType): String = value.name
+
+    @TypeConverter
+    fun toItemType(value: String): ItemType = ItemType.valueOf(value)
 }
 
 @Database(
@@ -35,7 +42,7 @@ class InventoryConverters {
         ItemPhotoEntity::class,
         RecentItemEntity::class,
     ],
-    version = 2,
+    version = 3,
     exportSchema = false,
 )
 @TypeConverters(InventoryConverters::class)

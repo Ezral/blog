@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.ezral.personalinventory.data.local.InventoryDatabase
 import com.ezral.personalinventory.data.local.MIGRATION_1_2
+import com.ezral.personalinventory.data.local.MIGRATION_2_3
 import com.ezral.personalinventory.data.local.dao.ContainerDao
 import com.ezral.personalinventory.data.local.dao.HouseDao
 import com.ezral.personalinventory.data.local.dao.ItemDao
@@ -28,7 +29,7 @@ object DatabaseModule {
             context,
             InventoryDatabase::class.java,
             "personal_inventory.db",
-        ).addMigrations(MIGRATION_1_2)
+        ).addMigrations(MIGRATION_1_2, MIGRATION_2_3)
             .fallbackToDestructiveMigration()
             .build()
     }

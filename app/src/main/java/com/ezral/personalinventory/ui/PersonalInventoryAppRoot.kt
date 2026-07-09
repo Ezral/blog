@@ -30,7 +30,7 @@ import com.ezral.personalinventory.ui.item.ItemDetailScreen
 import com.ezral.personalinventory.ui.navigation.Routes
 import com.ezral.personalinventory.ui.onboarding.OnboardingScreen
 import com.ezral.personalinventory.ui.placeholder.ListsPlaceholderScreen
-import com.ezral.personalinventory.ui.placeholder.ScanPlaceholderScreen
+import com.ezral.personalinventory.ui.scan.ScanScreen
 import com.ezral.personalinventory.ui.search.SearchScreen
 
 private data class BottomTab(
@@ -168,15 +168,18 @@ fun PersonalInventoryAppRoot(showOnboarding: Boolean) {
                     navArgument("roomId") { type = NavType.LongType; defaultValue = -1L },
                     navArgument("containerId") { type = NavType.LongType; defaultValue = -1L },
                     navArgument("itemId") { type = NavType.LongType; defaultValue = -1L },
+                    navArgument("barcode") { type = NavType.StringType; defaultValue = "" },
                 ),
             ) { entry ->
                 val roomId = entry.arguments?.getLong("roomId")?.takeIf { it > 0 }
                 val containerId = entry.arguments?.getLong("containerId")?.takeIf { it > 0 }
                 val itemId = entry.arguments?.getLong("itemId")?.takeIf { it > 0 }
+                val barcode = entry.arguments?.getString("barcode").orEmpty().ifBlank { null }
                 AddEditItemScreen(
                     roomId = roomId,
                     containerId = containerId,
                     itemId = itemId,
+                    initialBarcode = barcode,
                     onBack = { navController.popBackStack() },
                     onSaved = { id ->
                         navController.navigate(Routes.itemDetail(id)) {
@@ -202,7 +205,14 @@ fun PersonalInventoryAppRoot(showOnboarding: Boolean) {
                 )
             }
 
-            composable(Routes.SCAN) { ScanPlaceholderScreen() }
+            composable(Routes.SCAN) {
+                ScanScreen(
+                    onOpenItem = { navController.navigate(Routes.itemDetail(it)) },
+                    onAddItemWithBarcode = { barcode ->
+                        navController.navigate(Routes.addItem(barcode = barcode))
+                    },
+                )
+            }
             composable(Routes.LISTS) { ListsPlaceholderScreen() }
         }
     }

@@ -56,6 +56,19 @@ enum class ContainerType {
     OTHER,
 }
 
+enum class ItemType {
+    FOOD,
+    BEVERAGE,
+    TOOL,
+    ELECTRONICS,
+    CLOTHING,
+    BOOK,
+    FURNITURE,
+    HYGIENE,
+    MEDICINE,
+    OTHER,
+}
+
 @Entity(
     tableName = "containers",
     foreignKeys = [
@@ -115,6 +128,7 @@ data class ItemEntity(
     val roomId: Long? = null,
     val name: String,
     val description: String? = null,
+    val itemType: ItemType = ItemType.OTHER,
     val category: String? = null,
     val isConsumable: Boolean = false,
     val quantity: Double = 1.0,

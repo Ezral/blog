@@ -51,15 +51,18 @@ import com.ezral.personalinventory.data.repository.ItemRepository
 import com.ezral.personalinventory.data.repository.RoomRepository
 import com.ezral.personalinventory.data.repository.ShareConnectRepository
 import com.ezral.personalinventory.domain.model.ImportInviteResult
+import com.ezral.personalinventory.ui.components.EditContainerDialog
 import com.ezral.personalinventory.ui.components.EditHouseDialog
 import com.ezral.personalinventory.ui.components.EditRoomDialog
 import com.ezral.personalinventory.ui.components.EmptyState
 import com.ezral.personalinventory.ui.components.ImportInviteDialog
 import com.ezral.personalinventory.ui.components.LinkRoomToHouseDialog
+import com.ezral.personalinventory.ui.components.PhotoThumbnail
 import com.ezral.personalinventory.ui.components.ShareInviteDialog
 import android.widget.Toast
 import androidx.compose.ui.platform.LocalContext
 import com.ezral.personalinventory.ui.components.InventoryScaffold
+import com.ezral.personalinventory.util.formatExpiryDate
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -134,7 +137,12 @@ fun HousesScreen(
                     ListItem(
                         headlineContent = { Text(house.name) },
                         supportingContent = { house.address?.let { Text(it) } },
-                        leadingContent = { Icon(Icons.Default.Home, contentDescription = null) },
+                        leadingContent = {
+                            PhotoThumbnail(
+                                photoUri = house.coverPhotoUri,
+                                fallback = { Icon(Icons.Default.Home, contentDescription = null) },
+                            )
+                        },
                         trailingContent = { Icon(Icons.Default.ChevronRight, contentDescription = null) },
                         modifier = Modifier
                             .fillMaxWidth()
@@ -200,12 +208,12 @@ class HouseDetailViewModel @Inject constructor(
         viewModelScope.launch { roomRepository.createRoom(houseId, name) }
     }
 
-    fun updateHouse(houseId: Long, name: String, address: String) {
-        viewModelScope.launch { houseRepository.updateHouse(houseId, name, address) }
+    fun updateHouse(houseId: Long, name: String, address: String, photoUri: String?) {
+        viewModelScope.launch { houseRepository.updateHouse(houseId, name, address, coverPhotoUri = photoUri) }
     }
 
-    fun updateRoom(roomId: Long, name: String, floorLabel: String) {
-        viewModelScope.launch { roomRepository.updateRoom(roomId, name, floorLabel) }
+    fun updateRoom(roomId: Long, name: String, floorLabel: String, photoUri: String?) {
+        viewModelScope.launch { roomRepository.updateRoom(roomId, name, floorLabel, photoUri = photoUri) }
     }
 
     fun houseInvite(house: HouseEntity): String = shareConnectRepository.houseInvite(house)
@@ -249,12 +257,17 @@ fun HouseDetailScreen(
         },
     ) { padding ->
         if (rooms.isEmpty()) {
-            EmptyState(
-                message = "Add rooms like Kitchen, Bedroom, or Garage.",
-                actionLabel = "Add room",
-                onAction = { showDialog = true },
-                modifier = Modifier.padding(padding),
-            )
+            Column(modifier = Modifier.padding(padding).padding(16.dp)) {
+                currentHouse?.let { h ->
+                    PhotoThumbnail(photoUri = h.coverPhotoUri, size = 120.dp)
+                    h.address?.let { Text(it, modifier = Modifier.padding(top = 8.dp)) }
+                }
+                EmptyState(
+                    message = "Add rooms like Kitchen, Bedroom, or Garage.",
+                    actionLabel = "Add room",
+                    onAction = { showDialog = true },
+                )
+            }
         } else {
             LazyColumn(
                 modifier = Modifier
@@ -262,6 +275,14 @@ fun HouseDetailScreen(
                     .padding(padding),
                 contentPadding = PaddingValues(8.dp),
             ) {
+                currentHouse?.let { h ->
+                    item {
+                        Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
+                            PhotoThumbnail(photoUri = h.coverPhotoUri, size = 120.dp)
+                            h.address?.let { Text(it) }
+                        }
+                    }
+                }
                 items(rooms, key = { it.id }) { room ->
                     ListItem(
                         headlineContent = { Text(room.name) },
@@ -273,6 +294,9 @@ fun HouseDetailScreen(
                                     style = MaterialTheme.typography.bodySmall,
                                 )
                             }
+                        },
+                        leadingContent = {
+                            PhotoThumbnail(photoUri = room.photoUri)
                         },
                         trailingContent = {
                             Row {
@@ -328,9 +352,10 @@ fun HouseDetailScreen(
         EditHouseDialog(
             initialName = currentHouse.name,
             initialAddress = currentHouse.address.orEmpty(),
+            initialPhotoUri = currentHouse.coverPhotoUri,
             onDismiss = { showEditHouse = false },
-            onSave = { name, address ->
-                viewModel.updateHouse(houseId, name, address)
+            onSave = { name, address, photoUri ->
+                viewModel.updateHouse(houseId, name, address, photoUri)
                 showEditHouse = false
             },
         )
@@ -350,9 +375,10 @@ fun HouseDetailScreen(
         EditRoomDialog(
             initialName = room.name,
             initialFloor = room.floorLabel.orEmpty(),
+            initialPhotoUri = room.photoUri,
             onDismiss = { editingRoom = null },
-            onSave = { name, floor ->
-                viewModel.updateRoom(room.id, name, floor)
+            onSave = { name, floor, photoUri ->
+                viewModel.updateRoom(room.id, name, floor, photoUri)
                 editingRoom = null
             },
         )
@@ -389,8 +415,8 @@ class RoomDetailViewModel @Inject constructor(
 
     suspend fun getHouseForRoom(roomId: Long) = roomRepository.getHouseForRoom(roomId)
 
-    fun updateRoom(roomId: Long, name: String, floorLabel: String) {
-        viewModelScope.launch { roomRepository.updateRoom(roomId, name, floorLabel) }
+    fun updateRoom(roomId: Long, name: String, floorLabel: String, photoUri: String?) {
+        viewModelScope.launch { roomRepository.updateRoom(roomId, name, floorLabel, photoUri = photoUri) }
     }
 
     fun roomInvite(room: RoomEntity, house: HouseEntity): String =
@@ -460,6 +486,10 @@ fun RoomDetailScreen(
             currentRoom?.let { r ->
                 item {
                     Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
+                        PhotoThumbnail(
+                            photoUri = r.photoUri,
+                            size = 120.dp,
+                        )
                         Text("Room UUID: ${r.uuid}", style = MaterialTheme.typography.bodySmall)
                         Text("House UUID: ${r.houseUuid}", style = MaterialTheme.typography.bodySmall)
                     }
@@ -528,9 +558,10 @@ fun RoomDetailScreen(
         EditRoomDialog(
             initialName = currentRoom.name,
             initialFloor = currentRoom.floorLabel.orEmpty(),
+            initialPhotoUri = currentRoom.photoUri,
             onDismiss = { showEditRoom = false },
-            onSave = { name, floor ->
-                viewModel.updateRoom(roomId, name, floor)
+            onSave = { name, floor, photoUri ->
+                viewModel.updateRoom(roomId, name, floor, photoUri)
                 showEditRoom = false
             },
         )
@@ -574,6 +605,18 @@ class ContainerDetailViewModel @Inject constructor(
             containerRepository.createContainer(roomId, name, ContainerType.DRAWER, parentId)
         }
     }
+
+    fun updateContainer(
+        containerId: Long,
+        name: String,
+        type: ContainerType,
+        description: String,
+        photoUri: String?,
+    ) {
+        viewModelScope.launch {
+            containerRepository.updateContainer(containerId, name, type, description, photoUri)
+        }
+    }
 }
 
 @Composable
@@ -589,10 +632,18 @@ fun ContainerDetailScreen(
     val childContainers by viewModel.observeChildContainers(containerId)
         .collectAsStateWithLifecycle(initialValue = emptyList())
     val items by viewModel.observeItems(containerId).collectAsStateWithLifecycle(initialValue = emptyList())
+    var showEditContainer by rememberSaveable { mutableStateOf(false) }
+
+    val currentContainer = container
 
     InventoryScaffold(
-        title = container?.name ?: "Container",
+        title = currentContainer?.name ?: "Container",
         onBack = onBack,
+        actions = {
+            IconButton(onClick = { showEditContainer = true }, enabled = currentContainer != null) {
+                Icon(Icons.Default.Edit, contentDescription = "Edit container")
+            }
+        },
         floatingAction = {
             FloatingActionButton(onClick = onAddItem) {
                 Icon(Icons.Default.Add, contentDescription = "Add item")
@@ -606,6 +657,17 @@ fun ContainerDetailScreen(
             contentPadding = PaddingValues(8.dp),
             verticalArrangement = Arrangement.spacedBy(4.dp),
         ) {
+            currentContainer?.let { c ->
+                item {
+                    Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
+                        PhotoThumbnail(photoUri = c.photoUri, size = 120.dp)
+                        Text(
+                            c.type.name.lowercase().replaceFirstChar { it.uppercase() },
+                            style = MaterialTheme.typography.bodySmall,
+                        )
+                    }
+                }
+            }
             container?.description?.let { desc ->
                 item {
                     Text(desc, modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
@@ -634,6 +696,20 @@ fun ContainerDetailScreen(
             }
         }
     }
+
+    if (showEditContainer && currentContainer != null) {
+        EditContainerDialog(
+            initialName = currentContainer.name,
+            initialType = currentContainer.type,
+            initialDescription = currentContainer.description.orEmpty(),
+            initialPhotoUri = currentContainer.photoUri,
+            onDismiss = { showEditContainer = false },
+            onSave = { name, type, description, photoUri ->
+                viewModel.updateContainer(containerId, name, type, description, photoUri)
+                showEditContainer = false
+            },
+        )
+    }
 }
 
 @Composable
@@ -649,6 +725,7 @@ private fun ContainerRow(container: ContainerEntity, onClick: () -> Unit) {
     ListItem(
         headlineContent = { Text(container.name) },
         supportingContent = { Text(container.type.name.lowercase().replaceFirstChar { it.uppercase() }) },
+        leadingContent = { PhotoThumbnail(photoUri = container.photoUri) },
         trailingContent = { Icon(Icons.Default.ChevronRight, contentDescription = null) },
         modifier = Modifier
             .fillMaxWidth()
@@ -662,8 +739,14 @@ private fun ItemRow(item: ItemEntity, onClick: () -> Unit) {
         headlineContent = { Text(item.name) },
         supportingContent = {
             Column {
+                Text(item.itemType.name.lowercase().replaceFirstChar { it.uppercase() })
                 item.brand?.let { Text(it) }
                 Text("Qty ${item.quantity} ${item.unit}")
+                if (item.isConsumable) {
+                    formatExpiryDate(item.currentExpiryDate)?.let { expiry ->
+                        Text("Expires $expiry", style = MaterialTheme.typography.bodySmall)
+                    } ?: Text("Consumable", style = MaterialTheme.typography.bodySmall)
+                }
             }
         },
         trailingContent = { Icon(Icons.Default.ChevronRight, contentDescription = null) },
