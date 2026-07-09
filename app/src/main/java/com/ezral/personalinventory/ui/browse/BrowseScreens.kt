@@ -258,7 +258,7 @@ fun HouseDetailScreen(
     ) { padding ->
         if (rooms.isEmpty()) {
             Column(modifier = Modifier.padding(padding).padding(16.dp)) {
-                currentHouse?.let { h ->
+                house?.let { h ->
                     PhotoThumbnail(photoUri = h.coverPhotoUri, size = 120.dp)
                     h.address?.let { Text(it, modifier = Modifier.padding(top = 8.dp)) }
                 }
@@ -275,7 +275,7 @@ fun HouseDetailScreen(
                     .padding(padding),
                 contentPadding = PaddingValues(8.dp),
             ) {
-                currentHouse?.let { h ->
+                house?.let { h ->
                     item {
                         Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
                             PhotoThumbnail(photoUri = h.coverPhotoUri, size = 120.dp)
