@@ -12,7 +12,7 @@ Offline-first home inventory app: organize items by **house → room → contain
 ## Get started
 
 ```bash
-git clone https://github.com/Ezral/homeventory.git
+git clone https://github.com/Ezral/Homeventory.git
 cd homeventory
 ```
 
