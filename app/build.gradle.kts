@@ -37,6 +37,9 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
+        freeCompilerArgs += listOf(
+            "-opt-in=androidx.compose.foundation.layout.ExperimentalLayoutApi",
+        )
     }
 
     buildFeatures {

@@ -50,6 +50,7 @@ class OnboardingViewModel @Inject constructor(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun OnboardingScreen(
     onFinished: () -> Unit,
