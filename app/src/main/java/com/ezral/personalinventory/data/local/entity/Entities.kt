@@ -4,10 +4,17 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import java.util.UUID
 
-@Entity(tableName = "houses")
+fun newEntityUuid(): String = UUID.randomUUID().toString()
+
+@Entity(
+    tableName = "houses",
+    indices = [Index("uuid", unique = true)],
+)
 data class HouseEntity(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val uuid: String = newEntityUuid(),
     val name: String,
     val address: String? = null,
     val notes: String? = null,
@@ -26,11 +33,13 @@ data class HouseEntity(
             onDelete = ForeignKey.CASCADE,
         ),
     ],
-    indices = [Index("houseId")],
+    indices = [Index("houseId"), Index("uuid", unique = true), Index("houseUuid")],
 )
 data class RoomEntity(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val uuid: String = newEntityUuid(),
     val houseId: Long,
+    val houseUuid: String,
     val name: String,
     val floorLabel: String? = null,
     val notes: String? = null,

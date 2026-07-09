@@ -35,7 +35,7 @@ class InventoryConverters {
         ItemPhotoEntity::class,
         RecentItemEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 @TypeConverters(InventoryConverters::class)

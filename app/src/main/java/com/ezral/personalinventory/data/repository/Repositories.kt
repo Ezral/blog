@@ -13,6 +13,7 @@ import com.ezral.personalinventory.data.local.entity.HouseEntity
 import com.ezral.personalinventory.data.local.entity.ItemEntity
 import com.ezral.personalinventory.data.local.entity.ItemPhotoEntity
 import com.ezral.personalinventory.data.local.entity.RecentItemEntity
+import com.ezral.personalinventory.data.local.entity.newEntityUuid
 import com.ezral.personalinventory.data.local.entity.RoomEntity
 import com.ezral.personalinventory.domain.model.ItemDraft
 import com.ezral.personalinventory.domain.model.LocationPath
@@ -32,15 +33,24 @@ class HouseRepository @Inject constructor(
     suspend fun hasAnyHouse(): Boolean = houseDao.count() > 0
 
     suspend fun createHouse(name: String, address: String? = null): Long {
-        return houseDao.insert(HouseEntity(name = name, address = address?.ifBlank { null }))
+        return houseDao.insert(
+            HouseEntity(
+                name = name,
+                uuid = newEntityUuid(),
+                address = address?.ifBlank { null },
+            ),
+        )
     }
 
     suspend fun createHouseWithRooms(name: String, roomNames: List<String>): Long {
         val houseId = createHouse(name)
+        val house = houseDao.getById(houseId) ?: error("House not found after insert")
         roomNames.forEachIndexed { index, roomName ->
             roomDao.insert(
                 RoomEntity(
+                    uuid = newEntityUuid(),
                     houseId = houseId,
+                    houseUuid = house.uuid,
                     name = roomName,
                     sortOrder = index,
                 ),
@@ -49,7 +59,17 @@ class HouseRepository @Inject constructor(
         return houseId
     }
 
-    suspend fun updateHouse(house: HouseEntity) = houseDao.update(house)
+    suspend fun updateHouse(houseId: Long, name: String, address: String? = null, notes: String? = null) {
+        val house = houseDao.getById(houseId) ?: return
+        houseDao.update(
+            house.copy(
+                name = name.trim(),
+                address = address?.ifBlank { null },
+                notes = notes?.ifBlank { null },
+                updatedAt = System.currentTimeMillis(),
+            ),
+        )
+    }
 
     suspend fun deleteHouse(id: Long) = houseDao.delete(id)
 }
@@ -57,19 +77,44 @@ class HouseRepository @Inject constructor(
 @Singleton
 class RoomRepository @Inject constructor(
     private val roomDao: RoomDao,
+    private val houseDao: HouseDao,
 ) {
     fun observeRooms(houseId: Long): Flow<List<RoomEntity>> = roomDao.observeByHouse(houseId)
 
     fun observeRoom(id: Long): Flow<RoomEntity?> = roomDao.observeById(id)
 
     suspend fun createRoom(houseId: Long, name: String, floorLabel: String? = null): Long {
+        val house = houseDao.getById(houseId) ?: error("House not found")
         return roomDao.insert(
             RoomEntity(
+                uuid = newEntityUuid(),
                 houseId = houseId,
+                houseUuid = house.uuid,
                 name = name,
                 floorLabel = floorLabel?.ifBlank { null },
             ),
         )
+    }
+
+    suspend fun updateRoom(
+        roomId: Long,
+        name: String,
+        floorLabel: String? = null,
+        notes: String? = null,
+    ) {
+        val room = roomDao.getById(roomId) ?: return
+        roomDao.update(
+            room.copy(
+                name = name.trim(),
+                floorLabel = floorLabel?.ifBlank { null },
+                notes = notes?.ifBlank { null },
+            ),
+        )
+    }
+
+    suspend fun getHouseForRoom(roomId: Long): HouseEntity? {
+        val room = roomDao.getById(roomId) ?: return null
+        return houseDao.getById(room.houseId)
     }
 
     suspend fun deleteRoom(id: Long) = roomDao.delete(id)

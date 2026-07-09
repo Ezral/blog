@@ -27,7 +27,13 @@ interface HouseDao {
     @Query("SELECT COUNT(*) FROM houses")
     suspend fun count(): Int
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Query("SELECT * FROM houses WHERE id = :id")
+    suspend fun getById(id: Long): HouseEntity?
+
+    @Query("SELECT * FROM houses WHERE uuid = :uuid LIMIT 1")
+    suspend fun getByUuid(uuid: String): HouseEntity?
+
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     suspend fun insert(house: HouseEntity): Long
 
     @Update
@@ -45,7 +51,13 @@ interface RoomDao {
     @Query("SELECT * FROM rooms WHERE id = :id")
     fun observeById(id: Long): Flow<RoomEntity?>
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Query("SELECT * FROM rooms WHERE id = :id")
+    suspend fun getById(id: Long): RoomEntity?
+
+    @Query("SELECT * FROM rooms WHERE uuid = :uuid LIMIT 1")
+    suspend fun getByUuid(uuid: String): RoomEntity?
+
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     suspend fun insert(room: RoomEntity): Long
 
     @Update

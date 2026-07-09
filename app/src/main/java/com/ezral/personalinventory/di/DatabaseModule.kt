@@ -3,6 +3,7 @@ package com.ezral.personalinventory.di
 import android.content.Context
 import androidx.room.Room
 import com.ezral.personalinventory.data.local.InventoryDatabase
+import com.ezral.personalinventory.data.local.MIGRATION_1_2
 import com.ezral.personalinventory.data.local.dao.ContainerDao
 import com.ezral.personalinventory.data.local.dao.HouseDao
 import com.ezral.personalinventory.data.local.dao.ItemDao
@@ -27,7 +28,8 @@ object DatabaseModule {
             context,
             InventoryDatabase::class.java,
             "personal_inventory.db",
-        ).fallbackToDestructiveMigration()
+        ).addMigrations(MIGRATION_1_2)
+            .fallbackToDestructiveMigration()
             .build()
     }
 
