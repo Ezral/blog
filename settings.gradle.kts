@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PersonalInventory"
+rootProject.name = "Homeventory"
 include(":app")

@@ -1,45 +1,27 @@
-# Publish as `Ezral/personal-inventory`
+# Sync code into your `homeventory` repo
 
-This branch contains the **standalone** Android project at the repository root (not inside a blog monorepo).
-
-The cloud agent cannot create new GitHub repositories on your account. Run these steps **once** on your laptop:
-
-## 1. Create the empty repository on GitHub
+If you created **Ezral/homeventory** as an empty repo, pull this scaffold from the blog staging branch:
 
 ```bash
-gh repo create Ezral/personal-inventory --public \
-  --description "Android personal home inventory — hierarchical storage, barcodes, consumables & expiry"
+git clone https://github.com/Ezral/homeventory.git
+cd homeventory
+
+# If the repo is empty (no commits yet):
+git remote add source https://github.com/Ezral/blog.git
+git fetch source homeventory
+git checkout -b main
+git reset --hard source/homeventory
+git push -u origin main
 ```
 
-Or create **Ezral/personal-inventory** manually at https://github.com/new (empty, no README).
-
-## 2. Push this branch to the new repo
+If you already have a README or initial commit on `main`:
 
 ```bash
-git clone -b personal-inventory https://github.com/Ezral/blog.git personal-inventory
-cd personal-inventory
-git remote rename origin blog
-git remote add origin https://github.com/Ezral/personal-inventory.git
-git push -u origin personal-inventory:main
+git remote add source https://github.com/Ezral/blog.git
+git fetch source homeventory
+git merge source/homeventory --allow-unrelated-histories
+# resolve conflicts if any, then:
+git push origin main
 ```
 
-## 3. Open in Android Studio
-
-```bash
-cd personal-inventory   # your clone of Ezral/personal-inventory
-```
-
-Android Studio → Open → run on emulator/device.
-
-## 4. Optional — remove inventory branches from blog
-
-After the new repo is live:
-
-```bash
-# Close open PRs #32 and #33 on Ezral/blog if still open (GitHub UI)
-git push https://github.com/Ezral/blog.git --delete personal-inventory
-git push https://github.com/Ezral/blog.git --delete cursor/personal-inventory-android-52f5
-git push https://github.com/Ezral/blog.git --delete cursor/personal-inventory-planning-docs-52f5
-```
-
-The blog `master` branch was never modified with the Android app.
+Then open the project in **Android Studio**.

@@ -1,4 +1,4 @@
-# Personal Inventory (Android)
+# Homeventory (Android)
 
 Offline-first home inventory app: organize items by **house → room → container → item**, with photos, search, and (upcoming) barcode scanning, consumable tracking, and expiry alerts.
 
@@ -12,8 +12,8 @@ Offline-first home inventory app: organize items by **house → room → contain
 ## Get started
 
 ```bash
-git clone https://github.com/Ezral/personal-inventory.git
-cd personal-inventory
+git clone https://github.com/Ezral/homeventory.git
+cd homeventory
 ```
 
 Open the folder in **Android Studio**, let Gradle sync, then run on an emulator or device.
