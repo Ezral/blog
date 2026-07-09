@@ -295,8 +295,8 @@ fun AddEditItemScreen(
                     singleLine = true,
                 )
             }
-            FlowRow(
-                verticalAlignment = androidx.compose.ui.Alignment.CenterVertically,
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
             ) {
                 Text("Consumable")
